@@ -1,0 +1,1927 @@
+id,utterance,logical_form
+0,"Please follow <name>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) )
+"
+1,"Could you navigate to the <room>
+","( go "" <room> "" )
+"
+2,"find the <category> in the <room>
+","( find ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+3,"get the <object> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+4,"Could you bring <object> to <name>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) )
+"
+5,"look for the <object> in the <room>
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+6,"look for the <category> in the <room>
+","( find ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+7,"Please escort <name> to the <location>
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) "" <location> "" )
+"
+8,"Please Pour some cereals into the bowl
+","( pour ( lambda $1 e ( is_a $1 "" cereal "" ) ) ( lambda $1 e ( is_a $1 "" bowl "" ) ) )
+"
+9,"Could you please deliver <object> to me
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) )
+"
+10,"Could you guide <name> to the <location>
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) "" <location> "" )
+"
+11,"Please locate the <object> in the <room>
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+12,"Could you please bring <object> to <name>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) )
+"
+13,"Could you locate the <object> in the <room>
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+14,"Please place the <object> on the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+15,"give the <object> to <name> at the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+16,"find someone in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+17,"locate a boy in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+18,"get the <object> and place it on the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+19,"give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+20,"Tell me how many people in the <room> are girls
+","( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+21,"Robot please accompany <name> to the <location>
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) "" <location> "" )
+"
+22,"find someone in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+23,"bring me the biggest object from the <location>
+","( bring ( lambda $1 e ( biggest $1 ) ) "" <location> "" )
+"
+24,"take the <object> and place it on the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+25,"find a person in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+26,"Robot please find three <category> in the <room>
+","( find ( lambda $1 e ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) 3 )
+"
+27,"Tell me the pose of the person at the <location>
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( pose $2 $1 ) ( at $2 "" <location> "" ) ) ) )
+"
+28,"find a girl in the <room> and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+29,"locate a woman in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+30,"look for <name> in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <room> "" ) ) )
+"
+31,"Tell me the gender of the person at the <location>
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <location> "" ) ) ) )
+"
+32,"bring me the largest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( largest $1 ) ) "" <location> "" )
+"
+33,"go to the <location> , meet <name> , and guide them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+34,"Tell me what's the biggest object on the <location>
+","( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+35,"go to the <location> , meet <name> , and escort them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+36,"locate a woman in the <room> and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+37,"Robot please look for three <category> in the <room>
+","( find ( lambda $1 e ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) 3 )
+"
+38,"find a male person in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+39,"Could you please bring the <object> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+40,"Tell me how many <object> there are on the <location>
+","( say ( count ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+41,"Please give me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+42,"go to the <room> , locate a boy , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+43,"look for someone in the <room> and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+44,"go to the <room> , find a boy , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+45,"go to the <room> , find a man , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+46,"locate a male person in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+47,"Please bring me the thinnest object from the <location>
+","( bring ( lambda $1 e ( thinnest $1 ) ) "" <location> "" )
+"
+48,"lead the <object> from the <location> to the <location>
+","UNKNOWN
+"
+49,"take the <object> from the <location> and bring it to me
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) )
+"
+50,"grasp the <object> from the <location> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+51,"go to the <room> , locate a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+52,"go to the <room> , look for a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+53,"look for a male person in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+54,"Could you give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+55,"Could you bring me the lightest object from the <location>
+","( bring ( lambda $1 e ( lightest $1 ) ) "" <location> "" )
+"
+56,"Could you give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+57,"find a person lying down in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+58,"find a person <gesture> in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+59,"go to the <room> , locate <name> , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <room> "" ) ) )
+"
+60,"go to the <room> , look for a person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+61,"go to the <room> , locate someone , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+62,"Could you lead <name> from the <location> to the <location>
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+63,"look for a person standing in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) )
+"
+64,"accompany the <object> from the <location> to the <location>
+","UNKNOWN
+"
+65,"Could you go to the <location> , meet <name> , and take them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+66,"navigate to the <room> , locate a man , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+67,"Robot please give me the lightest object from the <location>
+","( bring ( lambda $1 e ( lightest $1 ) ) "" <location> "" )
+"
+68,"Could you give me the largest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( largest $1 ) ) "" <location> "" )
+"
+69,"Could you go to the <location> , meet <name> , and guide them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+70,"go to the <room> , look for someone , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+71,"Robot please give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+72,"navigate to the <location> , meet <name> , and accompany them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+73,"Could you give me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+74,"go to the <room> , look for a person , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+75,"look for a person lying down in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+76,"Please lead the <object> from the <location> to the <location>
+","UNKNOWN
+"
+77,"navigate to the <room> , locate a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+78,"navigate to the <room> , find <name> , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <room> "" ) ) )
+"
+79,"navigate to the <room> , look for a man , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+80,"Please guide the <object> from the <location> to the <location>
+","UNKNOWN
+"
+81,"Could you Tell me how many <object> there are on the <location>
+","( say ( count ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+82,"navigate to the <room> , find someone , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+83,"go to the <location> , locate the <object> , and bring it to me
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) )
+"
+84,"Could you please give me the largest object from the <location>
+","( bring ( lambda $1 e ( largest $1 ) ) "" <location> "" )
+"
+85,"navigate to the <location> , meet the <category> , and follow it
+","UNKNOWN
+"
+86,"go to the <room> , find a person lying down , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+87,"bring to <name> at the <location> the <object> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+88,"Please escort the <category> from the <location> to the <location>
+","UNKNOWN
+"
+89,"Could you guide the <object> from the <location> to the <location>
+","UNKNOWN
+"
+90,"Could you go to the <location> , meet the <object> , and follow it
+","UNKNOWN
+"
+91,"Could you please give me the biggest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( biggest $1 ) ) "" <location> "" )
+"
+92,"Could you navigate to the <location> , meet <name> , and guide them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+93,"give me the object at the right of the <object> from the <location>
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( right_of $1 $2 ) ) ) "" <location> "" )
+"
+94,"lead <name> to the <location> , you may find them at the <location>
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+95,"navigate to the <room> , look for someone , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+96,"Could you give me the object behind the <object> from the <location>
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( behind $1 $2 ) ) ) "" <location> "" )
+"
+97,"go to the <room> , look for a person <gesture> , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+98,"Please give me the object on top of the <object> from the <location>
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+99,"Please tell me which are the three thinnest objects on the <location>
+","( say ( lambda $1 e ( thinnest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+100,"meet <name> at the <location> , follow them , and accompany them back
+","( lambda $1 e ( sequence ( follow ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) ( guide $1 "" current "" ) ) )
+"
+101,"go to the <room> , look for a person sitting , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) )
+"
+102,"navigate to the <room> , find a female person , and answer a <question>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+103,"Please navigate to the <location> , meet the <category> , and follow it
+","UNKNOWN
+"
+104,"Robot please bring me the object under the <object> from the <location>
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( below $1 $2 ) ) ) "" <location> "" )
+"
+105,"Could you navigate to the <location> , meet <name> , and accompany them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+106,"Could you tell me which are the three lightest objects on the <location>
+","( say ( lambda $1 e ( lightest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+107,"navigate to the <room> , locate a person standing , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) )
+"
+108,"Could you please take the <object> from the <location> to the <location>
+","UNKNOWN
+"
+109,"Could you please go to the <location> , meet <name> , and accompany them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) UNKNOWN )
+"
+110,"navigate to the <location> , look for the <object> , and deliver it to me
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) )
+"
+111,"get the <object> from the <location> and give it to <name> at the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( at $1 "" <location> "" ) ( name $1 "" <name> "" ) ) )
+"
+112,"Could you please tell me which are the three largest objects on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+113,"Could you please tell me which are the three lightest objects on the <location>
+","( say ( lambda $1 e ( lightest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+114,"Robot please give me the object at the left of the <object> from the <location>
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( left_of $1 $2 ) ) ) "" <location> "" )
+"
+115,"Could you go to the <location> , meet <name> , and follow them to the <location>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+116,"Could you please tell me which are the three largest <category> on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+117,"go to the <location> , find the <object> , and give it to <name> at the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+118,"Could you please bring me the object at the left of the <object> from the <location>
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( left_of $1 $2 ) ) ) "" <location> "" )
+"
+119,"go to the <location> , look for the <object> , and bring it to <name> at the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+120,"navigate to the <location> , locate the <object> , and deliver it to <name> at the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+121,"find a girl in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+122,"meet <name> at the <location> and follow them
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+123,"find a woman in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+124,"find a girl in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+125,"Tell me the gender of the person in the <room>
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+126,"Tell me the gender of the person at the <room>
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+127,"find a woman in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+128,"locate a girl in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+129,"give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+130,"follow <name> from the <location> to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+131,"answer a <question> to <name> at the <location>
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+132,"give me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+133,"locate a woman in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+134,"locate a girl in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+135,"bring me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+136,"give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+137,"bring me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+138,"locate a woman in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+139,"look for a girl in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+140,"bring me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+141,"get the <object> from the <room> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+142,"look for a woman in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+143,"look for a girl in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+144,"Tell me how many people in the <room> are standing
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+145,"give the <object> from the <room> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+146,"take the <object> from the <room> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+147,"look for a woman in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+148,"give me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+149,"bring the <object> from the <room> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+150,"grasp the <object> from the <room> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+151,"go to the <room> , find a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+152,"bring me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+153,"go to the <location> , meet <name> , and follow them
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+154,"go to the <room> , find a woman , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+155,"go to the <room> , find a girl , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+156,"pick up the <object> from the <room> to the <location>
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+157,"find a female person in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+158,"go to the <room> , find a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+159,"go to the <room> , locate a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+160,"Please give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+161,"Please give me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+162,"find a female person in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+163,"go to the <room> , locate a woman , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+164,"go to the <room> , locate a girl , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+165,"Please bring me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+166,"Please give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+167,"Please bring me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+168,"locate a female person in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+169,"go to the <room> , locate a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+170,"go to the <room> , look for a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+171,"Please bring me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+172,"locate a female person in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+173,"go to the <room> , look for a woman , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+174,"go to the <room> , look for a girl , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+175,"Could you give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+176,"Could you give me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+177,"look for a female person in the <room> and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+178,"go to the <room> , look for a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+179,"navigate to the <room> , find a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+180,"Could you bring me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+181,"Please give me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+182,"Could you give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+183,"navigate to the <location> , meet <name> , and follow them
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+184,"Could you bring me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+185,"look for a female person in the <room> and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+186,"navigate to the <room> , find a woman , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+187,"navigate to the <room> , find a girl , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+188,"Please bring me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+189,"Could you bring me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+190,"meet <name> at the <location> and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+191,"navigate to the <room> , find a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+192,"navigate to the <room> , locate a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+193,"Robot please give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+194,"Robot please give me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+195,"go to the <room> , find a female person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+196,"navigate to the <room> , locate a woman , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+197,"navigate to the <room> , locate a girl , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+198,"Robot please bring me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+199,"Could you give me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+200,"Robot please give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+201,"Robot please bring me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+202,"go to the <room> , find a female person , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+203,"navigate to the <room> , locate a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+204,"navigate to the <room> , look for a girl , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+205,"Could you bring me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+206,"Robot please bring me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+207,"tell me which are the three smallest objects on the <location>
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+208,"go to the <room> , locate a female person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+209,"navigate to the <room> , look for a woman , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+210,"navigate to the <room> , look for a girl , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+211,"go to the <room> , locate a female person , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+212,"navigate to the <room> , look for a woman , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+213,"tell me which are the three largest <category> on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+214,"Could you please give me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+215,"Robot please give me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+216,"Could you please give me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+217,"go to the <room> , look for a female person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+218,"Could you please bring me the heaviest object from the <location>
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+219,"Robot please bring me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+220,"Could you please give me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+221,"Could you please bring me the smallest object from the <location>
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+222,"go to the <room> , look for a female person , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+223,"Could you please bring me the left most object from the <location>
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+224,"go to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+225,"navigate to the <room> , find a female person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+226,"navigate to the <room> , find a female person , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+227,"Could you please give me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+228,"navigate to the <room> , locate a female person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+229,"Could you please bring me the smallest <category> from the <location>
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+230,"Please tell me which are the three smallest objects on the <location>
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+231,"navigate to the <room> , locate a female person , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+232,"navigate to the <room> , look for a female person , and say <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+233,"Please tell me which are the three largest <category> on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+234,"navigate to the <room> , look for a female person , and tell <whattosay>
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+235,"navigate to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+236,"Could you tell me which are the three smallest objects on the <location>
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+237,"Please go to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+238,"Could you tell me which are the three largest <category> on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+239,"Robot please tell me which are the three smallest objects on the <location>
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+240,"Could you go to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+241,"Robot please tell me which are the three largest <category> on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+242,"Please navigate to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+243,"Robot please go to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+244,"Could you please tell me which are the three smallest objects on the <location>
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+245,"Could you please tell me which are the three largest <category> on the <location>
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+246,"Could you navigate to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+247,"Could you please go to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+248,"Robot please navigate to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+249,"Could you please navigate to the <location> , meet <name> , and follow them to the <room>
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+250,"bring me the soap
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) )
+"
+251,"Bring me the apple.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) )
+"
+252,"Head to the bathroom.
+","( go "" <room> "" )
+"
+253,"bring the pear to the sofa
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+254,"Whos sitting in the kitchen
+","( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+255,"Answer taylor at the freezer
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+256,"Put a coke on the high chair.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+257,"How many beers are on the sink
+","( say ( count ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+258,"Put the big dish on the shower.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+259,"Go meet Peyton and go with them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) UNKNOWN )
+"
+260,"Move the objects from the shower
+","UNKNOWN
+"
+261,"Move the apple to the side table
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+262,"Find the sponge from the kitchen
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+263,"Seek for the coke in the bedroom.
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+264,"find the items in the living room
+","( find ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+265,"Please take Michael to the counter
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) "" <location> "" )
+"
+266,"get the large dishes from the sink
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( largest $1 ) ) "" <location> "" )
+"
+267,"Go find the glass in the bathroom.
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+268,"Locate the water in the living room
+","( find ( lambda $1 e ( and ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+269,"how does peyton get to the counter?
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) "" <location> "" )
+"
+270,"Please meet Morgan and go with them
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ) UNKNOWN )
+"
+271,"GET ME THE BOX FROM THE DISHWASHER.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) )
+"
+272,"Bring me the shampoo from the sink.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) )
+"
+273,"Where is the pasta in the bathroom?
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+274,"Take the fork over to the microwave.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+275,"Put some of the cereal into the bowl
+","( pour ( lambda $1 e ( is_a $1 "" cereal "" ) ) ( lambda $1 e ( is_a $1 "" bowl "" ) ) )
+"
+276,"Pour the cereal into the bowl please
+","( pour ( lambda $1 e ( is_a $1 "" cereal "" ) ) ( lambda $1 e ( is_a $1 "" bowl "" ) ) )
+"
+277,"Whats the smallest item on the toilet
+","( say ( lambda $1 e ( and ( smallest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+278,"Locate Jordan in the bedroom and answer
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <room> "" ) ) )
+"
+279,"find the box located in the living room
+","( find ( lambda $1 e ( and ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+280,"how many people in the hallway are girls
+","( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+281,"In the kitchen, try to find the shampoo.
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+282,"take the bag from the cabinet to the bar
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+283,"Move the cereal to the bathroom cabiinet
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+284,"Tell a joke to a girl in the dining room.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+285,"meet robin at the counter escort her back
+","( lambda $1 e ( sequence ( follow ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) ( guide $1 "" current "" ) ) )
+"
+286,"Bring me the lightest objects on the sofa.
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( lightest $1 ) ) "" <location> "" )
+"
+287,"relocate knife from bed to cutlery drawer.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+288,"Bring me the rightmost object on the stove
+","( bring ( lambda $1 e ( rightmost $1 "" <location> "" ) ) )
+"
+289,"How many sitting people are in the kitchen?
+","( say ( count ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+290,"What is the left most item from the fridge?
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+291,"what is the thinnest object in the wardrobe
+","( say ( lambda $1 e ( and ( thinnest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+292,"Please take that melon to that coffee  table
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+293,"Can you go to the corridor and find the beer
+","( find ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) )
+"
+294,"bring me the biggest thing from the bathroom
+","( bring ( lambda $1 e ( largest $1 ) ) "" <location> "" )
+"
+295,"go tell Tracy in the bathroom about yourself
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+296,"I need you to retrieve the tuna fish for me.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) )
+"
+297,"Go to the living room and look for the items
+","( find ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+298,"How many objects are there on the baby chair
+","( count ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+299,"How many people are standing in the corridor?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+300,"Locate the tiniest objects inside the freezer
+","( say ( lambda $1 e ( and ( smallest $1 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+301,"Guide Jordan from the desk to the coffee table
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+302,"how many people are lying down in the corridor
+","( say ( count ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+303,"What is the name of the person in the kitchen?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( name $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+304,"what is the pose of the person at the armchair
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( pose $2 $1 ) ( at $2 "" <location> "" ) ) ) )
+"
+305,"Answer the a boy's question in the dining room.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+306,"Find Robin near the tv and give her the sponge.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+307,"take this melon to the table in the living room
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ) "" <location> "" )
+"
+308,"Find the three smallest objects on the fireplace
+","( say ( lambda $1 e ( smallest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+309,"What are the three biggest things in the cabinet
+","( say ( lambda $1 e ( biggest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+310,"What pose is the person standing in the bathroom
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( pose $2 $1 ) ( at $2 "" <location> "" ) ) ) )
+"
+311,"What's the largest object on the washing machine
+","( say ( lambda $1 e ( and ( biggest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+312,"Bring me the smallest object on the coffee table
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+313,"tell the person in the living room what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+314,"Go with Peyton from the shower to the dining room
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+315,"Robot, what is the thinnest object in the drawer?
+","( say ( lambda $1 e ( and ( thinnest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+316,"On the stove, which are the three littlest items?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+317,"Go with Jamie to the stove. They're on the couch.
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+318,"Tell a joke to the person sitting in the bedroom.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) )
+"
+319,"Ask that person sitting in the kitchen a question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) )
+"
+320,"Please bring me the heaviest objects from the desk
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( heaviest $1 ) ) "" <location> "" )
+"
+321,"tell me about the three biggest objects on the bed
+","( say ( lambda $1 e ( biggest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+322,"follow hayden after meeting them at the towel rack
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+323,"Go to the microwave to give the tuna fish to Jamie
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+324,"What are the three most thin objects on the toilet?
+","( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+325,"What's the number of cookies on the cutlery drawer?
+","( say ( count ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+326,"Of the people in the corridor, how many are female?
+","( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+327,"hey robot get me the object to the right of the bar
+","( bring ( lambda $1 e ( rightmost $1 "" <location> "" ) ) )
+"
+328,"Take the peach from the stove and give it to Robin.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+329,"find a boy in the dining room and answer a question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+330,"Please locate three items that are in the bathroom.
+","( find ( lambda $1 e ( is_a $1 "" <category> "" ) ( at $1 "" <room> "" ) ) 3 )
+"
+331,"go to the living room and tell me the person's pose
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( pose $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+332,"Please bring me the thinnest objects in the freezer
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( thinnest $1 ) ) "" <location> "" )
+"
+333,"Which are the three lightest objects on the counter?
+","( say ( lambda $1 e ( lightest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+334,"go to the towel rack and bring me the heaviest thing
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( heaviest $1 ) ) "" <location> "" )
+"
+335,"Bring me the item to the left of the washing machine
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+336,"What three objects on the nightstand are the largest?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+337,"Tell me the three largest objects on the chair Robot.
+","( say ( lambda $1 e ( largest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+338,"Find Jamie at the nightstand and answer his question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+339,"Find Jamie at the tv couch and lead them to the stove
+","( guide ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+340,"Go to the dining room, find a person, tell them a joke
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+341,"How many people present in the living room are female?
+","( say ( count ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+342,"Please tell me where the shampoo is in the dining room
+","( find ( lambda $1 e ( and ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) ) )
+"
+343,"Hand me the object on top of the tea from the airchair
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+344,"Bring me whatever is on top of the fork in the dresser
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+345,"What are the three lightest items sitting on the table
+","( say ( lambda $1 e ( lightest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+346,"Count the objects in the freezer and tell me the result
+","( count ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+347,"Get the soap in the sink and bring it to the towel rack
+","UNKNOWN
+"
+348,"Take the big dish and give it to Morgan at the freezer.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+349,"Locate the person lying in the kitchen and say what day
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+350,"Say how many people are on the floor of the dining room
+","( say ( count ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+351,"grab the coca from the bedroom and take it to the shelf
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+352,"bring me the object on top of the cookies in the shower
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+353,"I'd like the thinnest things that were in the dishwasher
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( thinnest $1 ) ) "" <location> "" )
+"
+354,"Inform me which items on the side table are the biggest?
+","( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+355,"What is the object in the cupboard that is the heaviest?
+","( say ( lambda $1 e ( and ( heaviest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+356,"Go to the sink and tell me the thinnest object in there.
+","( bring ( lambda $1 e ( thinnest $1 ) ) "" <location> "" )
+"
+357,"Select the heaviest thing on the bed, and bring it to me.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+358,"Please get me the thinnest objects from the freezer Robot
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( thinnest $1 ) ) "" <location> "" )
+"
+359,"Get to the dinning room,find Robin and say what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+360,"Identify the three heaviest objects placed on the dresser.
+","( say ( lambda $1 e ( heaviest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+361,"locate a boy in the kitchen and say a thing about yourself
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+362,"answer the question to the person standing in the bathroom
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) )
+"
+363,"What's the largest objects on the cabinet in the bathroom?
+","( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+364,"go to the dinning room , see someone and say what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+365,"Go to Tracy in the shower and tell something about yourself
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+366,"The person in the living room has a question, go answer it.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+367,"locate the living room, find a boy, and answer his question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+368,"Find a boy in the bedroom and say something about yourself.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+369,"Find the coke in the bedroom and bring it to the bookshelf.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+370,"Look for the mug near the tv couch and place it on the chair
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+371,"find the thinnest object from the freezer and bring it to me
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( thinnest $1 ) ) "" <location> "" )
+"
+372,"Please bring me the object on top of the coffee table glass.
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+373,"Count the objects on the sink and tell me what the total is.
+","( count ( lambda $1 e ( and ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+374,"get the biggest object from the microwave and bring it to me
+","( bring ( lambda $1 e ( biggest $1 ) ) "" <location> "" )
+"
+375,"bring this bowl over to the person waving in the living room
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+376,"Grab the small dish next to the bathtub and give it to Robin
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+377,"Go to the dining room, find a person, and answer a question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+378,"Go to the baby chair where Hayden is and answer the question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+379,"go to the living room and find a boy and answer the question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+380,"please bring me the object near the fireplace under the spoon
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( below $1 $2 ) ) ) "" <location> "" )
+"
+381,"Get the pringles in the bedroom and put them in the fireplace
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+382,"Bring me the item that is behind the chocolate on the counter.
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( behind $1 $2 ) ) ) "" <location> "" )
+"
+383,"Find the person standing in the kitchen and answer a question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) )
+"
+384,"Please give me the object that's above the chips on the chair.
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( above $1 $2 ) ) ) "" <location> "" )
+"
+385,"Navigate to the corridor find girl and say something personal.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+386,"Tell me the name of the largest item inside the washing machine
+","( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+387,"Please list the three heaviest objects placed on the microwave.
+","( say ( lambda $1 e ( heaviest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+388,"tell the person to raise the arm in the kitchen then tell a joke
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+389,"Please go to the bedroom, find someone and answer their question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+390,"Answer a question for the person you find sitting in the kitchen.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) )
+"
+391,"look for a girl and navigate to the kitchen to anwer the question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+392,"find your way to the corridor, find a man and answer his question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+393,"disclose to me which are the three lightest articles on the fridge
+","( say ( lambda $1 e ( lightest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+394,"Find the item the weights them most on the bed and bring it to me.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+395,"Look for a person sitting in the dining room and answer a question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( sitting $1 ) ( at $1 "" <room> "" ) ) )
+"
+396,"Go meet Peyton at the fireplace and bring them to the center table.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+397,"Look for the person lying down in the bathroom and answer a question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+398,"Locate Hayden near the wardrobe then follow them into the dining room
+","( sequence ( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) ) ( go "" <room> "" ) )
+"
+399,"Go look for a person lying down in the kitchen and answer a question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+400,"go to the hallway and look for someone who wants to ask you a question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( at $1 "" <room> "" ) ) )
+"
+401,"can you tell me what are the three thinnest objects in the dishwasher.
+","( say ( lambda $1 e ( thinnest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+402,"Scan the bathroom cabinet and let me know which is the biggest object.
+","( say ( lambda $1 e ( and ( largest $1 ) ( at $1 "" <location> "" ) ) ) )
+"
+403,"The person that is lying on the kitchen floor tell them the time Robot.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+404,"go to the kitchen and tell a joke to the person raising their left arm.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+405,"Get a knife out of the dishwasher, go to the bar, and give it to Jordan
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <location> "" ) ) ( lambda $1 e ( person $1 ) ( at $1 "" <location> "" ) ( name $1 "" <name> "" ) ) )
+"
+406,"Find the three lightest items in the freezer and tell me what they are.
+","( say ( lambda $1 e ( lightest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+407,"Please inform me of what the biggest items on the bathroom cabinet are.
+","( say ( lambda $1 e ( and ( largest $1 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) ) )
+"
+408,"Can you meet Jamie at the side table and lead them to the dining table.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) "" <location> "" )
+"
+409,"I'd like you to access the freezer, meet the bag, and go where it goes.
+","UNKNOWN
+"
+410,"Find a standing person at the living room and tell them what day it is.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) )
+"
+411,"Please  go to the person lying in the kitchen and answer their question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( lying $1 ) ( at $1 "" <room> "" ) ) )
+"
+412,"Move into the kitchen, find a male and tell him something about yourself
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( male $1 ) ( at $1 "" <room> "" ) ) )
+"
+413,"I'd like the thing that was on top of the cookies from the shower please
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+414,"Please go to the cabinet to meet Jamie, go with them and bring them back
+","( lambda $1 e ( sequence ( follow ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) ( guide $1 "" current "" ) ) )
+"
+415,"Please give me the thing that is on top of the glass on the coffee table
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( on_top_of $1 $2 ) ) ) "" <location> "" )
+"
+416,"The person in the bathroom raising their arm ,please give them the apple.
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+417,"ask what day its is to the person in the corridor with their right arm up
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+418,"Look for Tracy in the bathroom, tell her about yourself when you find her.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+419,"Go to the side table, find the object above the shampoo and give it to me.
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( above $1 $2 ) ) ) "" <location> "" )
+"
+420,"Go to Taylor, who's at the cabinet, follow him, and then go to the corridor
+","( sequence ( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) ) ( go "" <room> "" ) )
+"
+421,"When you get to the corridor, find the waving person and come up with a joke
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+422,"Go to the fridge, find the object from the left most and have it over to me.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+423,"Go to the dresser, find the lightest object in there and hand it over to me.
+","( bring ( lambda $1 e ( lightest $1 ) ) "" <location> "" )
+"
+424,"Could you go the side table and bring me the largest objects that are on it?
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( biggest $1 ) ) "" <location> "" )
+"
+425,"go get the bag and bring it to the person i am pointing to in the dining room
+","( bring ( lambda $1 e ( is_a $1 "" <object> "" ) ) ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+426,"Cruise to the dining room, find the person standing, and answer to his command
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) )
+"
+427,"Go get me the item that's located to the left of the choco flakes near the sofa.
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( left_of $1 $2 ) ) ) "" <location> "" )
+"
+428,"Find the object furthest to the left from the bathroom cabinet and bring it to me.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+429,"Find the person who is waving their hand in the bathroom and tell her something about you
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( is $1 "" <gesture> "" ) ( at $1 "" <room> "" ) ) )
+"
+430,"there is an object at the right of the glass from the tv couch. Robot please bring it to me
+","( bring ( lambda $1 e ( lambda $2 e ( is_a $2 "" <object> "" ) ( right_of $1 $2 ) ) ) "" <location> "" )
+"
+431,"bring the pear to the sofa
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+432,"reply peyton at the cabinet
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+433,"Answer taylor at the freezer
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+434,"go to toilet and follow Alex
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+435,"Put a coke on the high chair.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+436,"Take the bowl to the cabinet.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+437,"Follow Morgan, he's at the bar
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+438,"What gender is person in corridor.
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+439,"go to the nightstand and anwer jamie
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+440,"Bring me the heaviest item on the chair
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+441,"Answer Hayden's question at the dresser
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+442,"Find the woman in the bathroom and joke
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+443,"bring me the smallest stuff in the sink
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+444,"tell a joke to the woman in the bathroom
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+445,"how many people are standing in the hall
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+446,"Bring the coke from the hall to the table
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+447,"Answer Jordan at the microwave's question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+448,"Tell a joke to a girl in the dining room.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+449,"Tell a joke to the woman in the bathroom.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+450,"Tell the time to the girl in the kitchen.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+451,"Bring me the smallest object from the bar
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+452,"Bring me the smallest objects in the sink
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+453,"What gender is the person in the corridor?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+454,"grab the tiniest item off the coffee table
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+455,"go to the bathtub to meet and follow jamie
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+456,"Get me the item on the left of the fridge.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+457,"find the smallest object from the fireplace
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+458,"Tell a joke to the girl in the dining room.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+459,"find the tiniest items on or in the dresser
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+460,"What is the left most item from the fridge?
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+461,"give me the thing on the left in the fridge
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+462,"Is the person in the bedroom male or female?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+463,"is the person in the corridor male or female
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+464,"Answer Jordan's question at the dining table
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+465,"Go with Jamie from the shower to the kitchen
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+466,"Bring me the smallest objects from the sofa.
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+467,"How many people are standing in the bedroom.
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+468,"How many people are standing in the kitchen.
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+469,"What is the sex of the human in the corridor?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+470,"what gender is the person in the dining room?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+471,"Bring me the heaviest object from the toilet.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+472,"move pringles from dining room to dishwasher.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+473,"How many people are standing in the corridor?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+474,"How many people in the corridor are standing?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+475,"Tell me if a male or female is in the bedroom.
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+476,"What gender is that person in the living room?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+477,"Move the bowl to the cabinet from the bedroom.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+478,"Micheal has a question at the bathroom cabinet
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+479,"Go to the bathtub to get Jamie and follow them
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+480,"Please get me the smallest thing from the sofa
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+481,"Which three objects on the bar are the largest?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+482,"Take the glass thats in the bedroom to the sink
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+483,"Can you count the smallest things on the stove.
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+484,"I'd like the smallest object on the sofa please
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+485,"Is the person in the dining room male or female?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+486,"What is the gender of person at the dining room.
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+487,"What's the gender of the person in the corridor?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+488,"Bring me the smallest object on the coffee table
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+489,"What is the smallest item in the cutlery drawer?
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+490,"Go to the microwave and answer Jordan's question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+491,"Please answer Jordans question at the microwave.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+492,"Bring Payton from the shower to the dining room.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+493,"Meet Jamie in the bathroom and then follow them.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+494,"FInd the girl in the dining room and say a joke.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+495,"Find the woman in the bedroom and find the time.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+496,"Go to the sink and bring me the smallest objects
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+497,"How many people are standing in the living room?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+498,"How many people in the corridor are standing up?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+499,"What are the three huge objects on the nightstand
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+500,"What is the gender of the person in the corridor?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+501,"Give me the heaviest thing in the cutlery drawer.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+502,"Answer Hayden's question who is at the highchair.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+503,"Go with Peyton from the shower to the dining room
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+504,"On the stove, which are the three littlest items?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+505,"What are the three smallest objects on the stove?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+506,"Find a woman in the bathroom and tell her a joke.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+507,"Find the bedroom and tell the girl what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+508,"Tell a joke to the woman you find in the bathroom
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+509,"Tell the time to a female person in the corridor.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+510,"Get me the left most object from the center table
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+511,"Please bring me the left most item in the fridge.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+512,"What's the gender of the person in the dining room
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+513,"follow hayden after meeting them at the towel rack
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+514,"go after Peyton from the shower to the dining room
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+515,"Tell the lady in the living room what day this is.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+516,"Bring to me the left most object from the tv couch
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+517,"Tell me the gender of the person in the living room
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+518,"What is the gender of the person in the living room
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+519,"Bring me the heaviest object in the cutlery drawer.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+520,"Bring the glass that is in the bedroom to the sink.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+521,"Move the pringles from the bedroom to the fireplace
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+522,"Meet Taylor at the freezer and answer her question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+523,"answer Jordan's question who is at the dining table
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+524,"You can find Alex by the toilet and then follow him
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+525,"What are the three smallest items on that bookshelf
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+526,"What are the three smallest items on the nightstand
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+527,"idenify the three smallest things on the towel rack
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+528,"Robot, what are the three largest things on the bar?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+529,"Let me know the gender of the person in the bedroom.
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+530,"Go to the dining table and answer Jordan's question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+531,"Find a girl in the dining room and tell me the date.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+532,"Tell the day of the week to the girl in the kitchen.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+533,"find a girl in the dining room and tell me the date.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+534,"tell the time to a girl you will find in the kitchen
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+535,"Bring me the smallest things from the dresser thanks
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+536,"Robot, how many people are standing in the corridor?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+537,"Bring me the item to the left of the washing machine
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+538,"Bring me the thing on the left on that middle table.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+539,"bring me the left most object from the center table.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+540,"What three objects on the nightstand are the largest?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+541,"Find Jamie at the nightstand and answer his question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+542,"Follow Jamie from the shower to the bathroom, please.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+543,"What are the three biggest things on the middle table?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+544,"The heaviest object that is in bed, pro bring it to me
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+545,"I'd like the smallest thing on the coffee table please
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+546,"find Tracy by cabinet and follow them to the corridor.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+547,"On the nightstand, which three items are the smallest?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+548,"What are the three smallest objects on the towel rack?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+549,"What are the three tiniest objects on top of the stove
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+550,"please tell the girl in the dining room what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+551,"On the center table, which items are the three largest?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+552,"Can you please fetch the large object from the tv couch
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+553,"grab the coca from the bedroom and take it to the shelf
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+554,"Meet robin at the shower and follow them to the kitchen
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+555,"Find a girl in the kitchen and tell her what time it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+556,"Can you go to the bar and give me the smallest objects?
+","( bring ( lambda $1 e ( is_a $1 "" <category> "" ) ( smallest $1 ) ) "" <location> "" )
+"
+557,"go to the dishwasher and get the smallest item out of it
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+558,"please give me the smallest object of the covered drawer
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+559,"Find Jamie at the shower and follow all to the bathroom.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+560,"Go meet tracy close to the fridge follow her to corridor
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+561,"Meet Morgan at the cutlery drawer and go to the bedroom.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+562,"Look for a female in the corridor and tell them the time
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+563,"Tell the day of the week to the woman in the living room
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+564,"go to the kitchen and find a woman, and tell me the time
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+565,"Let me know which three items are the biggest on the bar.
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+566,"What are the three largest objects on top of the dresser?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+567,"Please hand me the heaviest object in the cutlery drawer.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+568,"Select the heaviest thing on the bed, and bring it to me.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+569,"Get the bowl from the bedroom and take it to the cabinet.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+570,"Go to the bathroom counter and answer Michael's question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+571,"Locate Tracy by the cabinet and follow her to the hallway
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+572,"Find the girl in the kitchen, and tell her what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+573,"Let me know the amount of humans standing in the bedroom.
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+574,"I'd like the thing that is most to the left in the fridge
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+575,"Please can I have the smallest thing from the coffee table
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+576,"please present to me the smallest item from the dishwasher
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+577,"find Michael at the bathroom cabinet and answer a question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+578,"please answer a question to Jamie who is in the nightstand
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+579,"Go to the girl in the dining room, tell her what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+580,"Navigate to corridor to find a girl and describe yourself.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+581,"Go to the bedroom and tell me how many people are standing
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+582,"Please give me the object to the far left from the fridge.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+583,"Find the coke in the bedroom and bring it to the bookshelf.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+584,"Go meet Robin in the shower and follow them to the kitchen.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+585,"Meet Tracy near the fridge and follow them to the corridor.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+586,"Can you identify the three smallest objects from the stove?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+587,"Find a girl at the dining room and tell her what day it is.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+588,"find the smallest object at the fireplace and give it to me.
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+589,"please go to hayden in the baby char and answer his question
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+590,"Go to Michael at the counter and go with him to the bathroom
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+591,"Meet Morgan at the freezer and follow her to the dining room
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+592,"Please go to the shower and then follow Robin to the kitchen
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+593,"What are the three smallest things on the towel rack please?
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+594,"Please tell me how many people are standing in the corridor?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+595,"Can you identify the gender of the person at the dining room?
+","( say ( lambda $1 e ( lambda $2 e ( person $2 ) ( gender $2 $1 ) ( at $2 "" <room> "" ) ) ) )
+"
+596,"go to the toilet and get the heaviest item and bring it to me
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+597,"Take the tiniest object from the fireplace and give it to me.
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+598,"Get the pringles in the bedroom and put them in the fireplace
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+599,"Please take the glass from the bedroom and put it in the sink
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+600,"Go to the baby chair where Hayden is and answer the question.
+","( say ( answer "" <question> "" ) ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+601,"Find Morgan at the freezer and go with him to the dining room
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+602,"Follow Tracy to the corridor after meeting them at the cabinet
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+603,"Go to the sink and meet Peyton, then follow him to the kitchen
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+604,"Navigate to the corridor find girl and say something personal.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+605,"Find the heaviest object on the tv couch and bring it over here
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+606,"Look for a female in the hallway, then tell me what time it is.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+607,"Tell me what day it is as you look for the girl in the bedroom.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+608,"go get me the object on the washing machine that is on the left
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+609,"Put the coke on the bookshelf after you get it from the bedroom.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+610,"Go find Morgan at the freezer and escort them to the dining room.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+611,"Meet Morgan at the cutlery drawer and go with her to the bathroom
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+612,"I want the leftmost object that is in the bathroom cabinet please
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+613,"Can you tell me what the three largest objects on the dresser are?
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+614,"Find the item the weights them most on the bed and bring it to me.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+615,"Please go to the dishwasher with the pringles from the dining room.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+616,"Go and find the heaviest object from the tv couch and give it to me.
+","( bring ( lambda $1 e ( heaviest $1 ) ) "" <location> "" )
+"
+617,"Take the coca that is in the kitchen and take it to the baby's chair
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+618,"Find the hallway and the woman in it.  Tell her something about you.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+619,"go tho the bathroom where you will find a woman and tell her a joke.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+620,"Go take note of the number of people standing inside the living room
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+621,"There's a girl in the kitchen, find her and then say the date please.
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+622,"Find the smallest object from the dish washing area and give it to me.
+","( bring ( lambda $1 e ( smallest $1 ) ) "" <location> "" )
+"
+623,"Go to the bedroom and get the pringles and take them to the fireplace.
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
+624,"Please meet Morgan at the cutlery draw and go to the bedroom with them
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+625,"Please go to the stove and tell me which three items are the smallest.
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+626,"Can you please meet Jamie at the shower and follow her to the bathroom.
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+627,"Find the nightstand and identify the three largest objects placed there.
+","( say ( lambda $1 e ( largest $1 3 ) ( is_a $1 "" <category> "" ) ( at $1 "" <location> "" ) ) )
+"
+628,"Can you identify how many people are there in the living room, standing?
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+629,"Please bring me the object on the left most side of the washing machine.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+630,"Head to the hallway, find the girl, and tell her something about yourself
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+631,"Count the people who are standing in the corridor and tell me the number.
+","( say ( count ( lambda $1 e ( person $1 ) ( standing $1 ) ( at $1 "" <room> "" ) ) ) )
+"
+632,"go near to the fridge , meet Tracy, and go along with them to the corridor
+","( follow ( lambda $1 e ( person $1 ) ( name $1 "" <name> "" ) ( at $1 "" <location> "" ) ) )
+"
+633,"Please go to the bathroom and when you find a girl tell her what day it is
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+634,"tell the day of the week to a female person you will find in the living room
+","( say "" <whattosay> "" ( lambda $1 e ( person $1 ) ( female $1 ) ( at $1 "" <room> "" ) ) )
+"
+635,"Go to the fridge, find the object from the left most and have it over to me.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+636,"could you bring me the object in the fridge that is the furthest to the left
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+637,"please tell me what the three smallest objects are that are on the nightstand
+","( say ( lambda $1 e ( smallest $1 3 ) ( at $1 "" <location> "" ) ) )
+"
+638,"Give me the item that is the furthest to the left in the cabinet in the bathroom
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+639,"Find the object furthest to the left from the bathroom cabinet and bring it to me.
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+640,"Open the fridge, take out the object that is furthest to the left and hand it to me
+","( bring ( lambda $1 e ( leftmost $1 "" <location> "" ) ) )
+"
+641,"Please clean up the Pringles on the dining room table and take the can to the dishwasher
+","( put ( lambda $1 e ( is_a $1 "" <object> "" ) ( at $1 "" <room> "" ) ) "" <location> "" )
+"
