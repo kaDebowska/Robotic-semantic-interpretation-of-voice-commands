@@ -1,0 +1,406 @@
+Command,Subject,Target
+get me the fork,fork,me
+Hand me that coke,me,
+Bring me the soap,soap,me
+retrieve the soap,soap,
+give me the apple,apple,me
+pass me the fork.,fork,me
+Hand me the apple.,apple,me
+Give me the apple.,apple,me
+bring the tea to me,tea,me
+Bring a fork to me.,fork,me
+help me get the mug,mug,
+Bring me chocolate.,chocolate,me
+Serve Jordan pasta.,"Jordan, pasta",
+Go retrieve the box.,box,
+Deliver me chocolate,chocolate,me
+Bring the mug to me.,mug,me
+Place beer on stove.,beer,stove
+give robin the knife,knife,robin
+Get me a knife please,knife,me
+please bring me water,water,me
+bring me the chocolate,chocolate,me
+Hand me the box please,box,me
+Bring the knife to me.,knife,me
+Please give me the bag,bag,me
+Please pass me the pasta,pasta,me
+Please bring me the soap,soap,me
+Give Michael a teaspoon.,teaspoon,Michael
+Bring this banana to Tracy,banana,Tracy
+Take these pickles to Alex.,pickles,Alex
+Bring the fork to me please,fork,me
+please to Jorgan give pasta,,"Jorgan, pasta"
+Get the dishwasher prickles,prickles,
+Take the tuna fish to Jamie,fish,Jamie
+Please fetch that soap to me,soap,me
+give the tea spoon to Micheal,spoon,Micheal
+Take the bowl to the cabinet.,bowl,cabinet
+get the fork and give it to me,"fork, it",me
+"please the tuna, bring it to me","tuna, it",me
+Bring the fork to the microwave,fork,microwave
+bring me the toothpaste please.,toothpaste,me
+Can you get the knife to Robin?,knife,Robin
+Bring me some pasta dear robot.,robot,me
+Place the apple on the counter.,apple,counter
+Bring the soap to the nightstand,soap,nightstand
+get mt the pear from the dresser,,"pear, dresser"
+place the tray on the dishwasher,tray,dishwasher
+Put the tea spoon on the counter,spoon,counter
+pass me the box on the dishwasher,box,"me, dishwasher"
+Set the cookies on the nightstand,cookies,nightstand
+Take the teaspoon to the counter.,teaspoon,counter
+Can you bring me the choco flakes,flakes,me
+Please bring my glass to the desk,glass,desk
+Take the milk to the table please.,milk,table
+bring me the shampoo from the sink,shampoo,"me, sink"
+Put the melon on the coffee table.,melon,table
+put the banana on the center table,banana,table
+Take the pickles to the dishwasher.,pickles,dishwasher
+Get me the milk from the microwave.,milk,"me, microwave"
+Get the shampoo and bring it to me.,"shampoo, it",me
+Hand me the napkin from the freezer,napkin,"me, freezer"
+Get me the mug that is on the stove.,mug,"me, stove"
+Find the shampoo and bring it to me.,"shampoo, it",me
+Grab the lightest object on the sofa,object,sofa
+Bring me the chips from the dresser.,chips,"me, dresser"
+Hand me the biggest item in the sink,item,"me, sink"
+Get me the shampoo from the bookshelf,shampoo,"me, bookshelf"
+Take the pasta and sit it on the bed.,"pasta, it",bed
+Give me a tray from the dining table.,tray,"me, table"
+Put the cereal in the bathroom cabinet,cereal,bathroom
+Put the small dish on the dining table,dish,table
+Please move the milk onto the wardrobe,milk,wardrobe
+The tea goes on the dining room table.,,table
+Can you bring me cookies from the sink?,cookies,"me, sink"
+Bring me the biggest things in the sink,things,"me, sink"
+get the choco flakes out of the freezer,flakes,freezer
+Kindly get me the object under the milk,object,"me, milk"
+bring me the smallest stuff in the sink,stuff,"me, sink"
+Bring me the heaviest item on the chair,item,"me, chair"
+At the baby chair bring Jordan the soap,soap,"chair, Jordan"
+give me the pear that is on the dresser,pear,"me, dresser"
+I want the choco flakes from the freezer,flakes,freezer
+The choco flakes need to be given to me.,,me
+Put the cereal into the bathroom cabinet,cereal,bathroom
+I need the larges object from the toilet,,toilet
+Bring the choco flakes to the fireplace.,flakes,fireplace
+Get me the largest item from the cuboard,item,"me, cuboard"
+bring me the choco flakes in the cabinet,flakes,"me, cabinet"
+Bring me the chips on the dresser please,chips,"me, dresser"
+Take the small dish to the dining table.,dish,table
+Bring me the smallest object from the bar,object,"me, bar"
+Find Alex and bring the pickles for them.,"Alex, pickles","for, them"
+Locate the toothpaste and bring it to me.,"toothpaste, it",me
+What is the largest object from the sink?,,sink
+Give Hayden the shampoo in the baby chair,shampoo,"Hayden, chair"
+bring the apple to the top of the counter,apple,"top, counter"
+Pick up the tuna fish and bring it to me.,"fish, it",me
+Take the big dish and give it to Michael.,"dish, it",Michael
+put the tea spoon on the bathroom cabinet,"spoon, cabinet",bathroom
+Bring me the smallest objects in the sink,objects,"me, sink"
+Give me the biggest thing on the armchair.,thing,"me, armchair"
+Please bring me cereal from the sofa there,cereal,"me, sofa"
+bring napkin to the person in the bathroom,napkin,"person, bathroom"
+Get the apple and put it on the side table,"apple, it",table
+get me the largest object from the counter,object,"me, counter"
+grab the tiniest item off the coffee table,item,table
+Get me the item on the left of the fridge.,item,"me, left, fridge"
+bring me the lightest object from the wash,object,"me, wash"
+Bring me the lightest objects from the sofa,objects,"me, sofa"
+Bring the big dish to Morgan by the freezer,dish,"Morgan, freezer"
+give me the thing on the left in the fridge,thing,"me, left, fridge"
+find the tiniest items on or in the dresser,items,dresser
+Go to the tv couch and get the beer for me.,beer,"couch, me"
+Get me a tea spoon from the cutlery drawer.,spoon,"me, drawer"
+Go get me the biggest item in the microwave,item,"me, microwave"
+Bring me the chips that are on the dresser.,chips,"me, dresser"
+find the smallest object from the fireplace,object,fireplace
+the shampoo could you bring it to me please,it,me
+Bring me the bowl that is on the baby chair,bowl,"me, chair"
+give the pickles at the baby chair to Taylor,pickles,"chair, Taylor"
+Take a tea spoon to Jordan at the nightstand,spoon,"Jordan, nightstand"
+Move the big dish and take it to the shower.,"dish, it",shower
+Bring me the biggest thing from the cabinet.,thing,"me, cabinet"
+pass me the pasta from the nightstand please,pasta,"me, nightstand"
+Bring me the smallest objects from the sofa.,objects,"me, sofa"
+put the milk on the table in the dining room,milk,"table, room"
+bring me the thinnest thing from the counter,thing,"me, counter"
+get me the thinnest thing from the dishwasher,thing,"me, dishwasher"
+move pringles from dining room to dishwasher.,pringles,"room, dishwasher"
+get me the largest object on the coffee table,object,"me, table"
+Hand me the thinnest items on the center table,items,"me, table"
+Give me the largest objects from the armchair.,objects,"me, armchair"
+Bring the bag to the person in the dining room,bag,"person, room"
+Bring me what's above the cereal in the fridge,me,"cereal, fridge"
+Please get me the smallest thing from the sofa,thing,"me, sofa"
+Bring Michael the cereal at the cutlery drawer,cereal,"Michael, drawer"
+Go to the armchair and place the banana on it.,banana,"armchair, it"
+Move the bowl to the cabinet from the bedroom.,bowl,"cabinet, bedroom"
+Hand me the lightest object on the towel rack.,object,"me, rack"
+Please bring the largest item from the cupboard,item,cupboard
+Please bring me the lightest things on the sofa,things,"me, sofa"
+go get the thing above the knife at the dresser,thing,"knife, dresser"
+Please me the weighty items from the towel rack,,"me, rack"
+bing the big dish to the person in the corridor,dish,"person, corridor"
+Take this apple to Jordan at the cutlery drawer,apple,"Jordan, drawer"
+Go get me the beer on the couch in the tv room.,beer,"me, couch, room"
+Get me the object at the right of the chocolate,object,"me, right, chocolate"
+Get the cereal from the sofa and give it to me.,"cereal, it","sofa, me"
+Take the glass thats in the bedroom to the sink,glass,"bedroom, sink"
+I'd like the rightmost object on the baby chair,object,chair
+take to the washing machine the flakes of choco,flakes,"machine, choco"
+bring me the lightest item from the coffee table,item,"me, table"
+Retrieve the teaspoon and put it on the counter.,"teaspoon, it",counter
+Please bring me that pear that is on the dresser,me,dresser
+"bring hadyen the shampoo , hes in the baby chair",shampoo,"hadyen, chair"
+Go to the sink and bring me the smallest objects,objects,"sink, me"
+Take the cereal to Michael by the cutlery drawer.,cereal,"Michael, drawer"
+Move the bag from the bookshelf to the side table,bag,"bookshelf, table"
+Get me the heaviest objects from the coffee table,objects,"me, table"
+Please bring me the left most item in the fridge.,item,"me, fridge"
+Please hand me the biggest item from the cabinet.,item,"me, cabinet"
+give me the smallest thing in the washing machine,thing,"me, machine"
+bring the towel from the fridge over to the rack.,towel,"fridge, rack"
+Can you bring me the biggest thing on the counter,thing,"me, counter"
+get the milk from the microwave and give it to me,"milk, it","microwave, me"
+get the pickles and bring them to the dishwasher.,"pickles, them",dishwasher
+Bring me the heaviest object on the coffee table.,object,"me, table"
+Get me the left most object from the center table,object,"me, table"
+Pass me the object above the peach on the counter,object,"me, peach, counter"
+bring the peach to the bathtub from the microwave,peach,"bathtub, microwave"
+Bring me the heaviest objects from the towel rack.,objects,"me, rack"
+Hand me the lightest item from the washing machine,item,"me, machine"
+Bring the peach to the bathtub from the microwave.,peach,"bathtub, microwave"
+Take the cookies and place them on the nightstand.,"cookies, them",nightstand
+Please fetch me that banana and put it on the desk,"banana, it","me, desk"
+Take the cereal to Michael near the cutlery drawer,cereal,"Michael, drawer"
+bring me the lightest item off the washing machine,item,"me, machine"
+Bring to me the left most object from the tv couch,object,"me, couch"
+Bring me the thinnest item from the clothes washer,item,"me, washer"
+get shampoo for the person raising their right arm,"shampoo, arm",
+Please take this banana and put it on the armchair,"banana, it",armchair
+Hand me the thinnest objects from the center table,objects,"me, table"
+Bring the heaviest objects on the towel rack to me.,objects,"rack, me"
+Please bring me the rightmost object on the counter,object,"me, counter"
+go to the dresser bring me what under the tea spoon,"me, what","dresser, spoon"
+Bring me the largest object you find in the cabinet,object,"me, cabinet"
+I would like for you to give the cereal to the tub.,cereal,tub
+"On the nightstand there is a napkin, please take it",it,nightstand
+Move the napkin from the nightstand to the cabinet.,napkin,"nightstand, cabinet"
+Take the cookies from the sink and give them to me.,"cookies, them","sink, me"
+Go bring me the largest item from the coffee table.,item,"me, table"
+Bring the glass that is in the bedroom to the sink.,glass,"bedroom, sink"
+Bring me the object above the peach on the counter.,object,"me, peach, counter"
+Find the pickles near the desk and bring them to me,"pickles, them","desk, me"
+Bring me the heaviest object in the cutlery drawer.,object,"me, drawer"
+Can you bring me the lightest item in the microwave?,item,"me, microwave"
+get the item behind the shampoo that is on the stove,item,"shampoo, stove"
+Please hand me the largest objects from the armchair,objects,"me, armchair"
+Bring me the smallest things from the dresser thanks,things,"me, dresser"
+Go to the side table and bring me the largest items.,items,"table, me"
+bring me the heaviest objects from the coffee table.,objects,"me, table"
+please give me the privilege most items from the bar,"privilege, items","me, bar"
+Can you please get the pickles and give them to Alex,"pickles, them",Alex
+Pick up the choco flakes and put it on the fireplace,"flakes, it",fireplace
+bring me the left most object from the center table.,object,"me, table"
+Bring me the thing on the left on that middle table.,thing,"me, left, table"
+Get the teaspoon from the cupboard and give it to me.,"teaspoon, it","cupboard, me"
+could you go to the cupboard and get me the tea spoon,spoon,"cupboard, me"
+Deliver me the item behind the apple from the dresser,item,"me, apple, dresser"
+give napkin to the person on the left in the bathroom,napkin,"person, left, bathroom"
+I'd like the thing on top of the tea from the bathtub,thing,"top, tea, bathtub"
+Give the bown to the person in the living room waving.,bown,"person, room"
+Please bring me the lightest thing on the coffee table,thing,"me, table"
+"The heaviest object that is in bed, pro bring it to me",it,"bed, me"
+Move the chips from the bathroom cabinet to the drawer,chips,"bathroom, drawer"
+Put the towel that is by the fridge on the towel rack.,towel,"fridge, rack"
+I'd like the heaviest things from the towel rack please,things,rack
+Can you go to the bar and give me the smallest objects?,objects,"bar, me"
+Please bring me the thinnest object from the dishwasher,object,"me, dishwasher"
+Can you please fetch the large object from the tv couch,object,couch
+Hand me the object that is on the left side of the sofa,object,"me, side, sofa"
+Bring me the biggest objects that are on the side table,objects,"me, table"
+find the biggest object on the cabinet and hand it to me,"object, it","cabinet, me"
+Go to the side table and give the largest objects to me.,objects,"table, me"
+please bring me the bigest item from the couch by the tv,item,"me, couch, tv"
+"go to the bookshelf, get the shampoo and bring it to me.","shampoo, it","bookshelf, me"
+Please bring me the largest objects from the side table.,objects,"me, table"
+Can you please place the cereal to the bathroom cabinet.,cereal,cabinet
+Get me the object on top of the tea spoon at the cabinet,object,"me, top, spoon, cabinet"
+please could you give me the lighter object of the board,object,"me, board"
+put the tea spoon on the counter which is in the bathtub,spoon,"counter, bathtub"
+find the fridge and bring me the object above the cereal,"fridge, object","me, cereal"
+go to the dishwasher and get the smallest item out of it,item,"dishwasher, it"
+"Go to the bookshelf, get the shampoo, and bring it back.","shampoo, it",bookshelf
+Please give me the thinnest objects from the dishwasher.,objects,"me, dishwasher"
+Get the pickles and give it to Taylor at the baby chair.,"pickles, it","Taylor, chair"
+Bring me the item that is above the knife on the dresser.,item,"me, knife, dresser"
+"Go to the cupboard, get the teaspoon, and bring it to me.","teaspoon, it","cupboard, me"
+Hand me the object from the dresser that weighs the least,"object, least","me, dresser"
+I'd like the thing that is most to the left in the fridge,thing,"left, fridge"
+Can you please get the big dish and put it in the shower?,"dish, it",shower
+Get the bowl from the bedroom and take it to the cabinet.,"bowl, it","bedroom, cabinet"
+hand me whatever weighs the least from the dresser please,"me, least",dresser
+Please hand me the heaviest object in the cutlery drawer.,object,"me, drawer"
+Please get the milk from the microwave and give it to me.,"milk, it","microwave, me"
+get the thinnest object from the fridge and give it to me,"object, it","fridge, me"
+Pass me the object at the dining table left of the banana,object,"me, table, banana"
+please present to me the smallest item from the dishwasher,item,"me, dishwasher"
+Please go to the sink and bring me the largest item in it.,item,"sink, me, it"
+Please give me the object to the far left from the fridge.,object,"me, left, fridge"
+Please can I have the smallest thing from the coffee table,thing,table
+Bring the coke from the side table to Jamie at the counter,coke,"table, Jamie, counter"
+bring me the thing to the left of the peach in the cabinet,thing,"me, left, peach, cabinet"
+Find the largest item from the counter and let me have it.,"item, it",counter
+"I want the chips from the chair, can you bring them to me?","chips, them","chair, me"
+Find the biggest item from the cabinet and bring it to me.,"item, it","cabinet, me"
+Please tell me the largest objects in the bathroom cabinet,objects,"me, bathroom"
+Go hand me the item on the bathroom cabinet under the coke,item,"me, bathroom, coke"
+Retrieve what is to the right of the glass by the tv couch,,"right, glass, couch"
+bring me the object in the  bathroom cabinet under the coke,object,"me, cabinet, coke"
+robot go to the bed and get the knife to the cutlery drawer,knife,"bed, drawer"
+Grab the bag on the bookshelf and put it on the side table.,"bag, it","bookshelf, table"
+"I want the choco flakes from the freezer, can you get them?","flakes, them",freezer
+Please bring me the largest item from the couch near the TV,item,"me, couch, TV"
+Please go to the freezer and bring me the least heavy item.,item,"freezer, me"
+Put the choco flakes to the left person in the dining room.,flakes,"person, room"
+Pick up the pickle and hand it to Taylor in the baby chair.,"pickle, it","Taylor, chair"
+put the peach on the drawer which is in the bathroom cabinet,peach,"drawer, bathroom"
+Give me the item from the chair that is on top of the chips.,item,"me, chair, top, chips"
+Please bring the choco flakes to the person I am pointing at,flakes,person
+take the spaghetti from the drawer to morgan in the bath tub,spaghetti,"drawer, bath"
+Retrieve the pasta from the nightstand and deliver it to me.,"pasta, it","nightstand, me"
+bring the tuna fish from the sofa to hayden by the mircowave,fish,"sofa, mircowave"
+Please bring the thinnest objects to me that are on the bar.,objects,"me, bar"
+Go to the living room and give the bowl to the waving person,bowl,"room, person"
+bring the bag at the nightstand to Taylor at the side table.,bag,"nightstand, Taylor, table"
+Robin is by the cupboard bring him the peach from the stove.,peach,"cupboard, him, stove"
+find the smallest object at the fireplace and give it to me.,"object, it","fireplace, me"
+Please take the glass from the bedroom and put it in the sink,"glass, it","bedroom, sink"
+pass me the object from the baby chair right of the chocolate,object,"me, chair, chocolate"
+Please move the towel that is on the fridge to the towel rack,towel,"fridge, rack"
+"Go to the counter, find the largest object and hand it to me.","object, it","counter, me"
+"Robot, please bring me the heaviest things from the cupboard.",things,"me, cupboard"
+go to the toilet and get the heaviest item and bring it to me,"item, it","toilet, me"
+"In the cupboard, can you please give me the heaviest objects?",objects,"cupboard, me"
+take the teaspoon to the person in the bathroom pointing left,teaspoon,"person, pointing"
+I want you to bring me the thinnest things from the bar thanks,things,"me, bar"
+Please get me the object from the fridge that is the thinnest.,object,"me, fridge"
+Go take the peach from the microwave and put it in the bathtub,"peach, it","microwave, bathtub"
+Please get the object from the bowl behind the washing machine,object,"bowl, machine"
+Get me the object that is on the counter behind the chocolate.,object,"me, counter, chocolate"
+Can you give me the item above the shampoo from the side table,item,"me, shampoo, table"
+Find the biggest object on the counter and bring it over to me,"object, it","counter, me"
+Please bring me the object on top of the tea from the bathtub.,object,"me, top, tea, bathtub"
+Bring me the object on the side table that's above the shampoo,object,"me, table, shampoo"
+go get me the object on the washing machine that is on the left,object,"me, machine, left"
+Find the biggest objects at the coffee table and give it to me.,"objects, it","table, me"
+Give taylor the pasta from the coffee table. She's at the stove,pasta,"taylor, table, stove"
+Get the banana in the cutlery drawer and put it on the tv couch,"banana, it","drawer, couch"
+"Bring Peyton the apple from the cabinet, he's at the towel rack",apple,"Peyton, cabinet, rack"
+Give me the item on the left hand side of the soap from the sofa,item,"me, side, soap, sofa"
+Pick p the choc flakes and bring them to Michael in the kitchen.,"p, flakes, them","Michael, kitchen"
+go to the drawer and take the spaghetti to morgan at the bathtub,spaghetti,"drawer, bathtub"
+"Go to the bathtub, find the teaspoon, and put it on the counter.","teaspoon, it","bathtub, counter"
+Find the item behind the bowl from the drawer and give it to me.,"item, it","bowl, drawer, me"
+Put the coke on the bookshelf after you get it from the bedroom.,"coke, it","bookshelf, bedroom"
+Please hand me the thing to the left of the chocolate on the sofa,thing,"me, left, chocolate, sofa"
+Please give me the thing that is  behind the bowl from the drawer,thing,"me, bowl, drawer"
+"Give Hayden the tuna that is on the sofa, he is by the microwave.",tuna,"Hayden, sofa, microwave"
+Please get the cereal and take it to the cabinet in the bathroom.,"cereal, it","cabinet, bathroom"
+give me the object that is left of the choco flakes from the sofa,object,"me, flakes, sofa"
+Can you hand me that thing above the peach that's on the counter?,"me, thing","peach, counter"
+Go to the desk and grab the heaviest objects and give them to me.,"objects, them","desk, me"
+I want the leftmost object that is in the bathroom cabinet please,,"bathroom, cabinet"
+Take the spaghetti from the towel rack  and bring it to the shower,"spaghetti, it","rack, shower"
+Bring the napkin to the person that is on the left in the bathroom.,napkin,"person, left, bathroom"
+Please transfer the banana from the cutlery drawer to the tv couch.,banana,"drawer, couch"
+Please go to the dishwasher with the pringles from the dining room.,,"dishwasher, pringles, room"
+Can you please hand me the thing on the far right on my nightstand?,thing,"me, right, nightstand"
+Take the toothpaste out of the dishwasher and put it on the drawer.,"toothpaste, it","dishwasher, drawer"
+Please bring me the object on the dresser that is behind the apple.,object,"me, dresser, apple"
+Open the cabinet and give me the item on top of the teaspoon please,"cabinet, item","me, top, teaspoon"
+Take the chips from the bathroom cabinet and put them on the drawer.,"chips, them","cabinet, drawer"
+Give the side bag at the night stand to the Taylor at the side table,bag,"stand, Taylor, table"
+"Can you go to the freezer, find the napkin and hand it to me please.","napkin, it","freezer, me"
+Please bring me the object placed at the right most from the nightst,object,"me, right, nightst"
+Take the coca that is in the kitchen and take it to the baby's chair,"coca, it","kitchen, chair"
+Please bring me the thing that is furthest to the right on the stove,thing,"me, right, stove"
+Please pick up the banana between the cutlery drawer and the tv couch,banana,drawer
+Can you go to the dresser and get the object behind the apple for me.,object,"dresser, apple, me"
+Go to the bedroom and get the pringles and take them to the fireplace.,"pringles, them","bedroom, fireplace"
+retrieve the water from the armchair take it to hayden in the bathroom,"water, it","armchair, bathroom"
+Get the knife out of the dishwasher and bring it to Jordan at the bar.,"knife, it","dishwasher, Jordan, bar"
+Find the smallest object from the dish washing area and give it to me.,"object, it","area, me"
+GET THE BAG FROM THE MICROWAVE AND GIVE IT TO ALEX AT THE DINING TABLE.,"BAG, IT","MICROWAVE, TO, ALEX, TABLE"
+Take the napkin from the microwave and bring it to Michael at the chair,"napkin, it","microwave, Michael, chair"
+Please bring me the item that is behind the shampoo thats on the stove.,item,"me, shampoo, stove"
+Please bring me the object on the counter that is furthest to the right,object,"me, counter, right"
+Bring the cookies off of the towel rack to Peyton at the cutlery drawer,cookies,"rack, Peyton, drawer"
+Please take this tea spoon to the person in the bathroom who points left,spoon,"person, bathroom"
+"make your way to the cabinet, get the choco flakes and bring them to me.","way, flakes, them","cabinet, me"
+Place the right most difficult object from the baby chair into my hands.,object,"chair, hands"
+Take the tea spoon to the bathroom and give it to the person on the left,"spoon, it","bathroom, person, left"
+Can you take the pasta out of the freezer and put it on the center table,"pasta, it","freezer, table"
+"Find the bathroom cabinet, then find the peach, and set it in the drawer","cabinet, peach, it",drawer
+take the bag from the microwave and give it to Alex at the dining table.,"bag, it","microwave, Alex, table"
+Go to the towel rack and give me the heaviest objects you can see there.,objects,"rack, me"
+Move the apple from the cabinet and bring it to peyton by the towel rack,"apple, it","cabinet, peyton, rack"
+Please give this box to the person standing to the right of the bathroom,box,"person, right, bathroom"
+Please bring me the object on the left most side of the washing machine.,object,"me, side, machine"
+Get the toothpaste on the bookshelf and take it to Peyton at the bathtub.,"toothpaste, it","bookshelf, Peyton, bathtub"
+"Robot, can you please give me the object from the chair, above the chips?",object,"me, chair, chips"
+Robot please give me the item that is left of the chocolate from the sofa,item,"me, chocolate, sofa"
+robot please go to the counter and get me the object behind the chocolate,object,"counter, me, chocolate"
+"I need the object to the left of the peach in the cabinet, bring it to me","object, it","left, peach, cabinet, me"
+Bring the pasta from the coffee table over to Taylor who is at the stove.,pasta,"table, Taylor, stove"
+can you bring be the thing from the coffee table thats on top of the glass,,"table, top, glass"
+Give the melon to the person in the bedroom who is raising their right arm,"melon, arm","person, bedroom"
+Please hand me the object to the left of that banana from the dining table,object,"me, left, banana, table"
+Take the melon to the person in the bedroom who has their right arm raised.,melon,"person, bedroom"
+"there is an object under the spoon by the fireplace, can you bring it to me",it,"spoon, fireplace, me"
+find the choco flakes and bring them to the left person of the dining table,"flakes, them","person, table"
+Get the tuna fish from the couch and bring it to Hayden near the microwave.,"fish, it","couch, Hayden, microwave"
+Can you please take the knife from the bed and put it in the kitchen drawer?,"knife, it","bed, drawer"
+could you bring me the object in the fridge that is the furthest to the left,object,"me, fridge, left"
+"go to the cutlery drawer, find the banana and take it to the tv couch please","banana, it","drawer, couch"
+Carefully pick up the napkin from the nightstand and carry it to the cabinet.,"napkin, it","nightstand, cabinet"
+Please find the object placed at the right most of the bar and give it to me.,"most, it","right, bar, me"
+Go to the bathroom cabinet and bring me the object at the right of the melon.,object,"cabinet, me, right, melon"
+"Go to the bathroom cabinet, find the item under the coke, and bring it to me.","item, it","cabinet, coke, me"
+"Please go to the drawer, get the spaghetti and take it to Morgan at the  tub.","spaghetti, it","drawer, Morgan, tub"
+"The biggest objects in the washing machine, could you please bring them to me",them,"machine, me"
+Find the person in the bedroom raising their left arm and give them an apple.,"person, arm, apple","bedroom, them"
+Go to the towel rack and locate the object under the milk then bring it to me.,"object, it","rack, milk, me"
+go to the coffee table where you will find a pear and bring it to Tracy in bed,"pear, it","table, Tracy, bed"
+"go to the armchair , take water ,and deliver it to Hayden who is in the bathtub","water, it","armchair, Hayden, bathtub"
+"Go to the cupboard, find the objects that weigth the most, and give them to me.","objects, most, them","cupboard, me"
+grab the chocolate off the dresser and deliver to Jordan who is at the wardrobe,chocolate,"dresser, Jordan, wardrobe"
+Grab the bag from the nightstand and take it to Taylor at the table on the side.,"bag, it","nightstand, Taylor, table, side"
+Please bring the chocolate that is on the dresser over to Jordan by the wardrobe,chocolate,"dresser, Jordan, wardrobe"
+hand the text box to the human that is pointing to the right inside the bathroom,box,"human, right, bathroom"
+There's an object behind the bowl by the washing machine. Can you give it to me?,it,"bowl, machine, me"
+take this glass to the kitchen and hand it to the person raising their right arm,"glass, it, arm","kitchen, person"
+Please go to the bathroom cabinet and get me the object to the right of the melon.,object,"cabinet, me, right, melon"
+"Open the fridge, take out the object that is furthest to the left and hand it to me","fridge, object, it","left, me"
+Go to the cabinet and get the apple and give it to Peyton who is at the towel rack.,"apple, it","cabinet, Peyton, rack"
+Retrieve the chocolate from the dresser and hand it to Jordan who is at the wardrobe,"chocolate, it","dresser, Jordan, wardrobe"
+Go to the dining table and locate the object left of the banana then bring it to me.,"object, it","table, banana, me"
+"At the right of the beer from the fireplace is an object, please hand it over to me.",it,"right, beer, fireplace, me"
+please find the object to the right of the glass near the tv couch and bring it to me,"object, it","right, glass, couch, me"
+"On the left side of the choco flakes from the sofa is an object, please hand it to me.",it,"side, flakes, sofa, me"
+Find the object that is under the knife on top of the washing machine and give it to me.,"object, it","knife, top, machine, me"
+Please clean up the Pringles on the dining room table and take the can to the dishwasher,"Pringles, can","table, dishwasher"
+"There's an object to the right of the knife on the dining table, can you bring it to me?",it,"right, knife, table, me"
+Please take the toothpaste from the bookshelf and take it to Peyton who is at the bathtub,"toothpaste, it","bookshelf, Peyton, bathtub"
+There is a person in the kitchen that is raising their right arm. Bring the glass to them.,"arm, glass","kitchen, them"
+"There is an object located above the cereal from the fridge, can you please bring it to me",it,"cereal, fridge, me"
+Go to the table and bring me the items from the center of the table that are the thinnest.,items,"table, me, center, table"
+Please go to the cutlery drawer and pick up the banana and take it to the couch by the TV.,"banana, it","drawer, couch, TV"
+could you please get the toothpaste off the bookshelf and bring it to peyton at the bathtub,"toothpaste, it","bookshelf, bathtub"
+Go to the kitchen and look for the person raising their right arm then hand them the glass.,"arm, glass","kitchen, them"
+"Go to the bathroom cabinet and bring me the item that is at the right of the melon, please.",item,"cabinet, me, right, melon"
+"When you see the person raising their right arm in the bedroom, give that person the melon.","arm, melon","bedroom, person"
+go to the bathtub and find the small dish and then deliver it to Robin who is at the cabinet,"dish, it","bathtub, Robin, cabinet"
+"Head to the counter, locate the pickles, and bring them to Hayden over at the cutlery drawer","pickles, them","counter, Hayden, drawer"
+Go to the counter and bring the pickles that are there to Hayden who is at the cutlery drawer,pickles,"counter, Hayden, drawer"

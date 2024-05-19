@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 speechrecognition = "*"
 pyttsx3 = "*"
+spacy = "*"
+pandas = "*"
+jupyter = "*"
 
 [dev-packages]
 
