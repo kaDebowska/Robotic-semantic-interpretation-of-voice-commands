@@ -7,57 +7,57 @@ Put the big dish on the shower.,dish,shower
 Move the apple to the side table,apple,table
 get the large dishes from the sink,dishes,sink
 GET ME THE BOX FROM THE DISHWASHER.,,DISHWASHER
-Bring me the shampoo from the sink.,shampoo,"me, sink"
+Bring me the shampoo from the sink.,shampoo,sink
 Take the fork over to the microwave.,fork,microwave
-take the bag from the cabinet to the bar,bag,"cabinet, bar"
+take the bag from the cabinet to the bar,bag,bar
 Move the cereal to the bathroom cabiinet,cereal,cabiinet
-Bring me the lightest objects on the sofa.,objects,"me, sofa"
-relocate knife from bed to cutlery drawer.,knife,"bed, drawer"
-Bring me the rightmost object on the stove,object,"me, stove"
+Bring me the lightest objects on the sofa.,objects,sofa
+relocate knife from bed to cutlery drawer.,knife,drawer
+Bring me the rightmost object on the stove,object,stove
 What is the left most item from the fridge?,,fridge
 Please take that melon to that coffee  table,melon,table
-bring me the biggest thing from the bathroom,thing,"me, bathroom"
+bring me the biggest thing from the bathroom,thing,bathroom
 I need you to retrieve the tuna fish for me.,fish,me
-Find Robin near the tv and give her the sponge.,"Robin, sponge","tv, her"
-take this melon to the table in the living room,melon,"table, room"
-Bring me the smallest object on the coffee table,object,"me, table"
-Please bring me the heaviest objects from the desk,objects,"me, desk"
-Go to the microwave to give the tuna fish to Jamie,fish,"microwave, Jamie"
-hey robot get me the object to the right of the bar,object,"me, right, bar"
-Take the peach from the stove and give it to Robin.,"peach, it","stove, Robin"
-Please bring me the thinnest objects in the freezer,objects,"me, freezer"
-go to the towel rack and bring me the heaviest thing,thing,"rack, me"
-Bring me the item to the left of the washing machine,item,"me, left, machine"
-Hand me the object on top of the tea from the airchair,object,"me, top, tea, airchair"
-Bring me whatever is on top of the fork in the dresser,me,"top, fork, dresser"
-Take the big dish and give it to Morgan at the freezer.,"dish, it","Morgan, freezer"
-grab the coca from the bedroom and take it to the shelf,"coca, it","bedroom, shelf"
-bring me the object on top of the cookies in the shower,object,"me, top, cookies, shower"
+Find Robin near the tv and give her the sponge.,Robin,her
+take this melon to the table in the living room,melon,room
+Bring me the smallest object on the coffee table,object,table
+Please bring me the heaviest objects from the desk,objects,desk
+Go to the microwave to give the tuna fish to Jamie,fish,Jamie
+hey robot get me the object to the right of the bar,object,bar
+Take the peach from the stove and give it to Robin.,peach,Robin
+Please bring me the thinnest objects in the freezer,objects,freezer
+go to the towel rack and bring me the heaviest thing,thing,me
+Bring me the item to the left of the washing machine,item,machine
+Hand me the object on top of the tea from the airchair,object,airchair
+Bring me whatever is on top of the fork in the dresser,me,dresser
+Take the big dish and give it to Morgan at the freezer.,dish,freezer
+grab the coca from the bedroom and take it to the shelf,coca,shelf
+bring me the object on top of the cookies in the shower,object,shower
 I'd like the thinnest things that were in the dishwasher,things,dishwasher
-Go to the sink and tell me the thinnest object in there.,object,"sink, me"
-"Select the heaviest thing on the bed, and bring it to me.","thing, it","bed, me"
-Please get me the thinnest objects from the freezer Robot,objects,"me, Robot"
-Find the coke in the bedroom and bring it to the bookshelf.,"coke, it","bedroom, bookshelf"
-Look for the mug near the tv couch and place it on the chair,it,"mug, couch, chair"
-find the thinnest object from the freezer and bring it to me,"object, it","freezer, me"
-Please bring me the object on top of the coffee table glass.,object,"me, top, glass"
-get the biggest object from the microwave and bring it to me,"object, it","microwave, me"
-bring this bowl over to the person waving in the living room,bowl,"person, room"
-Grab the small dish next to the bathtub and give it to Robin,"dish, it","bathtub, Robin"
-please bring me the object near the fireplace under the spoon,object,"me, fireplace, spoon"
-Get the pringles in the bedroom and put them in the fireplace,"pringles, them","bedroom, fireplace"
-Bring me the item that is behind the chocolate on the counter.,item,"me, chocolate, counter"
-Please give me the object that's above the chips on the chair.,object,"me, chips, chair"
-Find the item the weights them most on the bed and bring it to me.,"item, them, it","bed, me"
-"Get a knife out of the dishwasher, go to the bar, and give it to Jordan","knife, it","dishwasher, bar, Jordan"
-I'd like the thing that was on top of the cookies from the shower please,thing,"top, cookies, shower"
-Please give me the thing that is on top of the glass on the coffee table,thing,"me, top, glass, table"
-"The person in the bathroom raising their arm ,please give them the apple.","arm, apple","bathroom, them"
-"Go to the side table, find the object above the shampoo and give it to me.","object, it","table, shampoo, me"
-"Go to the fridge, find the object from the left most and have it over to me.","object, most, it","fridge, left, me"
-"Go to the dresser, find the lightest object in there and hand it over to me.","object, it","dresser, me"
-Could you go the side table and bring me the largest objects that are on it?,"table, objects","me, it"
-go get the bag and bring it to the person i am pointing to in the dining room,"bag, it","person, room"
-Go get me the item that's located to the left of the choco flakes near the sofa.,item,"me, left, flakes, sofa"
-Find the object furthest to the left from the bathroom cabinet and bring it to me.,"object, it","left, cabinet, me"
-there is an object at the right of the glass from the tv couch. Robot please bring it to me,it,"right, glass, couch, me"
+Go to the sink and tell me the thinnest object in there.,object,me
+"Select the heaviest thing on the bed, and bring it to me.",thing,me
+Please get me the thinnest objects from the freezer Robot,objects,Robot
+Find the coke in the bedroom and bring it to the bookshelf.,coke,bookshelf
+Look for the mug near the tv couch and place it on the chair,it,chair
+find the thinnest object from the freezer and bring it to me,object,me
+Please bring me the object on top of the coffee table glass.,object,glass
+get the biggest object from the microwave and bring it to me,object,me
+bring this bowl over to the person waving in the living room,bowl,room
+Grab the small dish next to the bathtub and give it to Robin,dish,Robin
+please bring me the object near the fireplace under the spoon,object,spoon
+Get the pringles in the bedroom and put them in the fireplace,pringles,fireplace
+Bring me the item that is behind the chocolate on the counter.,item,counter
+Please give me the object that's above the chips on the chair.,object,chair
+Find the item the weights them most on the bed and bring it to me.,item,me
+"Get a knife out of the dishwasher, go to the bar, and give it to Jordan",knife,Jordan
+I'd like the thing that was on top of the cookies from the shower please,thing,shower
+Please give me the thing that is on top of the glass on the coffee table,thing,table
+"The person in the bathroom raising their arm ,please give them the apple.",arm,them
+"Go to the side table, find the object above the shampoo and give it to me.",object,me
+"Go to the fridge, find the object from the left most and have it over to me.",object,me
+"Go to the dresser, find the lightest object in there and hand it over to me.",object,me
+Could you go the side table and bring me the largest objects that are on it?,table,it
+go get the bag and bring it to the person i am pointing to in the dining room,bag,room
+Go get me the item that's located to the left of the choco flakes near the sofa.,item,sofa
+Find the object furthest to the left from the bathroom cabinet and bring it to me.,object,me
+there is an object at the right of the glass from the tv couch. Robot please bring it to me,it,me

@@ -22,14 +22,14 @@ def filter_commands(file_path):
 
 def extract_subject_and_target(command):
     doc = nlp(command)
-    subjects = []
-    targets = []
+    subject = ''
+    target = ''
     for token in doc:
-        if token.dep_ == "dobj":
-            subjects.append(token.text)
+        if token.dep_ == "dobj" and subject == '':
+            subject = token.text
         elif token.dep_ == "pobj" or (token.dep_ == "dative" and token.text != 'to'):
-            targets.append(token.text)
-    return subjects, targets
+            target = token.text
+    return subject, target
 
 
 def create_new_csv(file_path, commands):
@@ -37,8 +37,8 @@ def create_new_csv(file_path, commands):
         csv_writer = csv.writer(file)
         csv_writer.writerow(["Command", "Subject", "Target"])
         for command in commands:
-            subjects, targets = extract_subject_and_target(command)
-            csv_writer.writerow([command, ', '.join(subjects), ', '.join(targets)])
+            subject, target = extract_subject_and_target(command)
+            csv_writer.writerow([command, subject, target])
 
 
 def main():
@@ -50,11 +50,11 @@ def main():
     create_new_csv('datasets/test_filtered.csv', test_commands)
     create_new_csv('datasets/val_filtered.csv', val_commands)
 
-    # for command in commands:
-    #     subject, target = extract_subject_and_target(command)
-    #     print(f"Command: {command}")
-    #     print(f"Subject: {subject}")
-    #     print(f"Target: {target}")
+    for command in train_commands:
+        subject, target = extract_subject_and_target(command)
+        print(f"Command: {command}")
+        print(f"Subject: {subject}")
+        print(f"Target: {target}")
 
     # for command in commands:
     #     doc = nlp(command)
