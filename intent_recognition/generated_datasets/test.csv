@@ -1,0 +1,1501 @@
+Command,Subject,Target
+"Robot, bring the bowl to the bedroom.",bowl,bedroom
+"Robot, carry the knife from the corridor to the sink.",knife,sink
+"Robot, get the crackers from the kitchen and bring it here.",crackers,kitchen
+"Robot, pick up the knife from the corridor.",knife,corridor
+"Robot, get me the spoon from the dining table.",spoon,table
+"Robot, get me the sprite from the dining table.",sprite,table
+"Robot, carry the spoon from the dining table to the dining room.",spoon,room
+"Robot, carry the grape juice from the dining room to the side table.",juice,table
+"Robot, pick up the pringles and place it in the living room.",pringles,room
+"Robot, carry the fork to the storage table.",fork,table
+"Robot, bring the noodles to the living room.",noodles,room
+"Robot, get the bowl from the bedroom and put it on the cupboard.",bowl,cupboard
+"Robot, get me the fork from the desk.",fork,desk
+"Robot, fetch the sprite from the living room.",sprite,room
+"Robot, get the bowl located in the bedroom.",bowl,bedroom
+"Robot, fetch the cloth and bring it to the dining room.",cloth,room
+"Robot, get the crackers from the living room and put it on the end table.",crackers,table
+"Robot, fetch me the fork from the living room.",fork,room
+"Robot, fetch me the noodles from the kitchen.",noodles,kitchen
+"Robot, get the cloth from the kitchen and bring it here.",cloth,kitchen
+"Robot, get the cloth from the living room and bring it here.",cloth,room
+"Robot, bring the cup from the bedroom.",cup,bedroom
+"Robot, pick up the pringles and bring it to the counter.",pringles,counter
+"Robot, pick up the potato chips and place it in the kitchen.",chips,kitchen
+"Robot, carry the cereal from the end table to the living room.",cereal,room
+"Robot, pick up the cereal and place it in the bedroom.",cereal,bedroom
+"Robot, get me the sausages from the bookcase.",sausages,bookcase
+"Robot, pick up the pringles.",pringles,
+"Robot, carry the cereal to the counter.",cereal,counter
+"Robot, fetch the orange juice and bring it to the living room.",juice,room
+"Robot, carry the bowl to the storage table.",bowl,table
+"Robot, carry the fork from the sink to the dining room.",fork,room
+"Robot, get the cereal from the living room and bring it here.",cereal,room
+"Robot, pick up the knife from the corridor.",knife,corridor
+"Robot, bring me the cascade pod from the kitchen.",pod,kitchen
+"Robot, get the chocolate drink from the kitchen and bring it here.",drink,kitchen
+"Robot, carry the cereal from the dining table to the corridor.",cereal,corridor
+"Robot, pick up the pringles and bring it to the desk.",pringles,desk
+"Robot, pick up the cup.",cup,
+"Robot, pick up the cereal and bring it to the end table.",cereal,table
+"Robot, carry the knife to the side table.",knife,table
+"Robot, pick up the grape juice from the bedroom.",juice,bedroom
+"Robot, get me the knife from the bookcase.",knife,bookcase
+"Robot, get the cup from the corridor and put it on the sink.",cup,sink
+"Robot, carry the grape juice from the dining table to the bedroom.",juice,bedroom
+"Robot, bring the sausages to the desk.",sausages,desk
+"Robot, pick up the sprite.",sprite,
+"Robot, bring the cereal to the dining room.",cereal,room
+"Robot, carry the spoon from the counter to the dining room.",spoon,room
+"Robot, carry the cloth to the counter.",cloth,counter
+"Robot, carry the orange juice to the sink.",juice,sink
+"Robot, carry the spoon from the bedroom to the storage table.",spoon,table
+"Robot, carry the noodles to the dining room.",noodles,room
+"Robot, fetch the pringles from the dining room.",pringles,room
+"Robot, carry the cascade pod to the side table.",pod,table
+"Robot, get the grape juice located in the bedroom.",juice,bedroom
+"Robot, pick up the cascade pod.",pod,
+"Robot, fetch me the potato chips from the living room.",chips,room
+"Robot, pick up the cereal.",cereal,
+"Robot, pick up the scrubby and bring it to the desk.",scrubby,desk
+"Robot, get the cup from the dining room and put it on the cupboard.",cup,cupboard
+"Robot, bring the bowl to the counter.",bowl,counter
+"Robot, get the pringles located in the bedroom.",pringles,bedroom
+"Robot, fetch the crackers and place it on the end table.",crackers,table
+"Robot, carry the chocolate drink from the dining table to the corridor.",drink,corridor
+"Robot, carry the coke from the living room to the sink.",coke,sink
+"Robot, get the spoon from the corridor and put it on the bookcase.",spoon,bookcase
+"Robot, fetch the noodles and place it on the cupboard.",noodles,cupboard
+"Robot, bring the orange juice from the living room.",juice,room
+"Robot, fetch the chocolate drink and place it on the storage table.",drink,table
+"Robot, carry the scrubby to the kitchen.",scrubby,kitchen
+"Robot, carry the scrubby from the kitchen to the cupboard.",scrubby,cupboard
+"Robot, pick up the chocolate drink from the living room.",drink,room
+"Robot, get the cup from the dining room and bring it here.",cup,room
+"Robot, pick up the scrubby from the bedroom.",scrubby,bedroom
+"Robot, pick up the cascade pod from the corridor.",pod,corridor
+"Robot, get the cascade pod from the kitchen and bring it here.",pod,kitchen
+"Robot, pick up the cloth from the living room.",cloth,room
+"Robot, bring the sprite to the sink.",sprite,sink
+"Robot, bring the cup to the bedroom.",cup,bedroom
+"Robot, fetch me the noodles from the living room.",noodles,room
+"Robot, get the noodles located in the bedroom.",noodles,bedroom
+"Robot, pick up the spoon.",spoon,
+"Robot, fetch the orange juice and place it on the dining table.",juice,table
+"Robot, fetch me the potato chips from the bedroom.",chips,bedroom
+"Robot, get me the fork from the desk.",fork,desk
+"Robot, fetch me the coke from the corridor.",coke,corridor
+"Robot, get me the pringles from the end table.",pringles,table
+"Robot, fetch the sausages from the bedroom.",sausages,bedroom
+"Robot, bring the noodles from the bedroom.",noodles,bedroom
+"Robot, get the chocolate drink from the living room and bring it here.",drink,room
+"Robot, fetch the orange juice and bring it to the living room.",juice,room
+"Robot, fetch the sausages from the bedroom.",sausages,bedroom
+"Robot, bring the cascade pod to the dining room.",pod,room
+"Robot, get the coke from the dining room and put it on the side table.",coke,table
+"Robot, pick up the grape juice and bring it to the dining table.",juice,table
+"Robot, bring the coke to the dining table.",coke,table
+"Robot, pick up the crackers.",crackers,
+"Robot, get the noodles from the living room and put it on the desk.",noodles,desk
+"Robot, fetch the scrubby and bring it to the bedroom.",scrubby,bedroom
+"Robot, get the sponge located in the dining room.",sponge,room
+"Robot, carry the potato chips from the cupboard to the living room.",chips,room
+"Robot, bring the sausages to the counter.",sausages,counter
+"Robot, fetch the cascade pod and place it on the end table.",pod,table
+"Robot, pick up the dish.",dish,
+"Robot, pick up the dish and place it in the bedroom.",dish,bedroom
+"Robot, carry the grape juice from the cupboard to the living room.",juice,room
+"Robot, carry the potato chips from the end table to the corridor.",chips,corridor
+"Robot, get the sprite located in the kitchen.",sprite,kitchen
+"Robot, fetch the sprite and bring it to the bedroom.",sprite,bedroom
+"Robot, carry the sausages to the kitchen.",sausages,kitchen
+"Robot, get the spoon from the dining room and bring it here.",spoon,room
+"Robot, fetch the scrubby and place it on the bookcase.",scrubby,bookcase
+"Robot, bring the scrubby to the dining room.",scrubby,room
+"Robot, carry the knife to the dining table.",knife,table
+"Robot, bring the coke from the bedroom.",coke,bedroom
+"Robot, pick up the cascade pod and bring it to the sink.",pod,sink
+"Robot, bring the coke from the living room.",coke,room
+"Robot, pick up the chocolate drink from the living room.",drink,room
+"Robot, fetch the sausages from the bedroom.",sausages,bedroom
+"Robot, fetch the pringles and bring it to the dining room.",pringles,room
+"Robot, carry the orange juice to the dining room.",juice,room
+"Robot, fetch the bowl from the bedroom.",bowl,bedroom
+"Robot, carry the noodles from the storage table to the bedroom.",noodles,bedroom
+"Robot, fetch the pringles from the bedroom.",pringles,bedroom
+"Robot, fetch the pringles from the corridor.",pringles,corridor
+"Robot, carry the sausages from the bedroom to the sink.",sausages,sink
+"Robot, pick up the coke and place it in the corridor.",coke,corridor
+"Robot, get the chocolate drink from the bedroom and bring it here.",drink,bedroom
+"Robot, pick up the spoon.",spoon,
+"Robot, get the potato chips from the corridor and put it on the end table.",chips,table
+"Robot, bring me the sausages from the kitchen.",sausages,kitchen
+"Robot, pick up the cloth and place it in the kitchen.",cloth,kitchen
+"Robot, bring me the spoon from the living room.",spoon,room
+"Robot, bring the pringles to the side table.",pringles,table
+"Robot, get me the scrubby from the bookcase.",scrubby,bookcase
+"Robot, get the cascade pod located in the dining room.",pod,room
+"Robot, get the orange juice from the corridor and put it on the storage table.",juice,table
+"Robot, bring me the knife from the dining room.",knife,room
+"Robot, bring the crackers to the bookcase.",crackers,bookcase
+"Robot, get the sponge from the corridor and bring it here.",sponge,corridor
+"Robot, fetch the cloth and place it on the storage table.",cloth,table
+"Robot, carry the bowl to the corridor.",bowl,corridor
+"Robot, pick up the spoon from the dining room.",spoon,room
+"Robot, pick up the cereal from the bedroom.",cereal,bedroom
+"Robot, pick up the pringles.",pringles,
+"Robot, get the cascade pod from the bedroom and bring it here.",pod,bedroom
+"Robot, pick up the crackers and bring it to the end table.",crackers,table
+"Robot, get the chocolate drink from the dining room and bring it here.",drink,room
+"Robot, get me the sausages from the desk.",sausages,desk
+"Robot, pick up the coke and bring it to the sink.",coke,sink
+"Robot, pick up the sponge and place it in the living room.",sponge,room
+"Robot, get the potato chips located in the kitchen.",chips,kitchen
+"Robot, carry the cloth to the side table.",cloth,table
+"Robot, pick up the cascade pod and bring it to the cupboard.",pod,cupboard
+"Robot, get the cup located in the dining room.",cup,room
+"Robot, carry the grape juice from the side table to the dining room.",juice,room
+"Robot, get the crackers from the bedroom and put it on the dining table.",crackers,table
+"Robot, bring the cup to the kitchen.",cup,kitchen
+"Robot, pick up the noodles and bring it to the side table.",noodles,table
+"Robot, fetch the scrubby from the dining room.",scrubby,room
+"Robot, carry the dish to the counter.",dish,counter
+"Robot, carry the noodles to the side table.",noodles,table
+"Robot, bring the knife from the kitchen.",knife,kitchen
+"Robot, pick up the dish.",dish,
+"Robot, get the spoon from the dining room and put it on the counter.",spoon,counter
+"Robot, fetch the orange juice and bring it to the corridor.",juice,corridor
+"Robot, pick up the cloth.",cloth,
+"Robot, carry the sprite from the bedroom to the end table.",sprite,table
+"Robot, get me the grape juice from the dining table.",juice,table
+"Robot, carry the spoon to the bedroom.",spoon,bedroom
+"Robot, carry the potato chips from the cupboard to the bedroom.",chips,bedroom
+"Robot, fetch the cascade pod from the dining room.",pod,room
+"Robot, pick up the potato chips.",chips,
+"Robot, bring the noodles to the corridor.",noodles,corridor
+"Robot, carry the sausages from the side table to the corridor.",sausages,corridor
+"Robot, fetch me the pringles from the kitchen.",pringles,kitchen
+"Robot, get the scrubby from the bedroom and bring it here.",scrubby,bedroom
+"Robot, get me the bowl from the dining table.",bowl,table
+"Robot, fetch the spoon and place it on the cupboard.",spoon,cupboard
+"Robot, pick up the coke and bring it to the cupboard.",coke,cupboard
+"Robot, carry the sponge to the kitchen.",sponge,kitchen
+"Robot, carry the orange juice to the side table.",juice,table
+"Robot, fetch the cereal from the living room.",cereal,room
+"Robot, fetch me the bowl from the dining room.",bowl,room
+"Robot, fetch me the sponge from the corridor.",sponge,corridor
+"Robot, fetch the knife and place it on the end table.",knife,table
+"Robot, carry the orange juice from the kitchen to the sink.",juice,sink
+"Robot, fetch the cloth and place it on the dining table.",cloth,table
+"Robot, carry the crackers to the dining table.",crackers,table
+"Robot, get the grape juice from the corridor and bring it here.",juice,corridor
+"Robot, carry the bowl from the dining room to the storage table.",bowl,table
+"Robot, fetch me the scrubby from the corridor.",scrubby,corridor
+"Robot, bring the sponge from the bedroom.",sponge,bedroom
+"Robot, get the sponge from the dining room and bring it here.",sponge,room
+"Robot, pick up the orange juice and place it in the kitchen.",juice,kitchen
+"Robot, get the cascade pod from the bedroom and bring it here.",pod,bedroom
+"Robot, bring the orange juice to the kitchen.",juice,kitchen
+"Robot, carry the pringles to the living room.",pringles,room
+"Robot, get the cascade pod located in the corridor.",pod,corridor
+"Robot, carry the sponge to the kitchen.",sponge,kitchen
+"Robot, pick up the fork from the bedroom.",fork,bedroom
+"Robot, bring the pringles to the sink.",pringles,sink
+"Robot, carry the sponge to the bookcase.",sponge,bookcase
+"Robot, pick up the spoon.",spoon,
+"Robot, get me the scrubby from the storage table.",scrubby,table
+"Robot, carry the fork to the desk.",fork,desk
+"Robot, bring me the potato chips from the living room.",chips,room
+"Robot, get the dish from the bedroom and bring it here.",dish,bedroom
+"Robot, pick up the potato chips and bring it to the dining table.",chips,table
+"Robot, carry the cascade pod from the storage table to the corridor.",pod,corridor
+"Robot, get the cascade pod from the bedroom and put it on the side table.",pod,table
+"Robot, get the sausages from the bedroom and bring it here.",sausages,bedroom
+"Robot, carry the sprite to the bedroom.",sprite,bedroom
+"Robot, fetch the orange juice and bring it to the corridor.",juice,corridor
+"Robot, fetch me the sponge from the corridor.",sponge,corridor
+"Robot, get the sprite from the corridor and put it on the bookcase.",sprite,bookcase
+"Robot, pick up the grape juice.",juice,
+"Robot, carry the cereal to the storage table.",cereal,table
+"Robot, bring the grape juice to the living room.",juice,room
+"Robot, fetch the knife and bring it to the corridor.",knife,corridor
+"Robot, fetch the sprite and place it on the dining table.",sprite,table
+"Robot, carry the cascade pod from the bedroom to the desk.",pod,desk
+"Robot, pick up the dish and place it in the kitchen.",dish,kitchen
+"Robot, get the sausages from the bedroom and bring it here.",sausages,bedroom
+"Robot, carry the noodles to the dining room.",noodles,room
+"Robot, pick up the bowl and bring it to the bookcase.",bowl,bookcase
+"Robot, carry the coke to the dining room.",coke,room
+"Robot, pick up the grape juice.",juice,
+"Robot, get the fork from the kitchen and bring it here.",fork,kitchen
+"Robot, get the orange juice located in the bedroom.",juice,bedroom
+"Robot, fetch the cereal from the dining room.",cereal,room
+"Robot, pick up the coke.",coke,
+"Robot, get the cascade pod located in the kitchen.",pod,kitchen
+"Robot, carry the cloth to the side table.",cloth,table
+"Robot, fetch the cup and bring it to the living room.",cup,room
+"Robot, bring me the orange juice from the kitchen.",juice,kitchen
+"Robot, fetch the potato chips from the bedroom.",chips,bedroom
+"Robot, pick up the potato chips and place it in the corridor.",chips,corridor
+"Robot, get the knife from the bedroom and bring it here.",knife,bedroom
+"Robot, fetch me the sprite from the bedroom.",sprite,bedroom
+"Robot, bring the pringles to the corridor.",pringles,corridor
+"Robot, pick up the fork.",fork,
+"Robot, bring the orange juice to the kitchen.",juice,kitchen
+"Robot, bring the grape juice to the end table.",juice,table
+"Robot, get the sausages located in the bedroom.",sausages,bedroom
+"Robot, fetch the coke from the dining room.",coke,room
+"Robot, bring the grape juice to the living room.",juice,room
+"Robot, fetch the cup from the dining room.",cup,room
+"Robot, get the cup from the kitchen and put it on the storage table.",cup,table
+"Robot, get me the bowl from the end table.",bowl,table
+"Robot, bring me the sausages from the dining room.",sausages,room
+"Robot, pick up the cloth and place it in the corridor.",cloth,corridor
+"Robot, bring the noodles to the corridor.",noodles,corridor
+"Robot, get the cup from the living room and put it on the cupboard.",cup,cupboard
+"Robot, pick up the spoon.",spoon,
+"Robot, fetch the noodles from the corridor.",noodles,corridor
+"Robot, pick up the potato chips.",chips,
+"Robot, carry the noodles from the dining room to the dining table.",noodles,table
+"Robot, bring the potato chips from the bedroom.",chips,bedroom
+"Robot, fetch me the bowl from the dining room.",bowl,room
+"Robot, fetch the cereal and bring it to the dining room.",cereal,room
+"Robot, carry the pringles from the living room to the storage table.",pringles,table
+"Robot, bring me the pringles from the dining room.",pringles,room
+"Robot, bring me the bowl from the bedroom.",bowl,bedroom
+"Robot, fetch me the knife from the corridor.",knife,corridor
+"Robot, carry the cup from the dining room to the desk.",cup,desk
+"Robot, bring the coke from the bedroom.",coke,bedroom
+"Robot, get the crackers from the kitchen and bring it here.",crackers,kitchen
+"Robot, carry the cascade pod to the living room.",pod,room
+"Robot, carry the sausages from the corridor to the bookcase.",sausages,bookcase
+"Robot, carry the knife to the side table.",knife,table
+"Robot, get the sprite located in the living room.",sprite,room
+"Robot, pick up the cloth and place it in the kitchen.",cloth,kitchen
+"Robot, carry the orange juice to the living room.",juice,room
+"Robot, fetch me the cloth from the dining room.",cloth,room
+"Robot, carry the spoon from the kitchen to the counter.",spoon,counter
+"Robot, fetch the coke and place it on the storage table.",coke,table
+"Robot, bring the cereal to the storage table.",cereal,table
+"Robot, pick up the fork and bring it to the storage table.",fork,table
+"Robot, carry the dish to the side table.",dish,table
+"Robot, carry the knife to the dining room.",knife,room
+"Robot, fetch the dish and bring it to the bedroom.",dish,bedroom
+"Robot, pick up the dish and bring it to the desk.",dish,desk
+"Robot, bring the orange juice to the dining room.",juice,room
+"Robot, carry the cloth from the cupboard to the kitchen.",cloth,kitchen
+"Robot, carry the noodles from the desk to the dining room.",noodles,room
+"Robot, bring me the cup from the living room.",cup,room
+"Robot, pick up the coke from the dining room.",coke,room
+"Robot, pick up the dish.",dish,
+"Robot, pick up the noodles and place it in the corridor.",noodles,corridor
+"Robot, bring the sausages to the corridor.",sausages,corridor
+"Robot, bring the crackers to the side table.",crackers,table
+"Robot, pick up the cloth and bring it to the bookcase.",cloth,bookcase
+"Robot, bring me the orange juice from the kitchen.",juice,kitchen
+"Robot, bring me the cloth from the dining room.",cloth,room
+"Robot, pick up the potato chips and bring it to the storage table.",chips,table
+"Robot, pick up the dish and bring it to the sink.",dish,sink
+"Robot, carry the potato chips to the counter.",chips,counter
+"Robot, carry the fork from the dining table to the corridor.",fork,corridor
+"Robot, fetch me the bowl from the kitchen.",bowl,kitchen
+"Robot, bring the spoon to the corridor.",spoon,corridor
+"Robot, bring the bowl to the dining room.",bowl,room
+"Robot, bring the cup from the living room.",cup,room
+"Robot, carry the cup from the bookcase to the living room.",cup,room
+"Robot, fetch the chocolate drink from the kitchen.",drink,kitchen
+"Robot, bring the sausages to the corridor.",sausages,corridor
+"Robot, pick up the potato chips from the living room.",chips,room
+"Robot, pick up the pringles from the dining room.",pringles,room
+"Robot, pick up the noodles and place it in the dining room.",noodles,room
+"Robot, bring the scrubby from the corridor.",scrubby,corridor
+"Robot, fetch me the scrubby from the corridor.",scrubby,corridor
+"Robot, fetch the potato chips and place it on the counter.",chips,counter
+"Robot, bring me the pringles from the kitchen.",pringles,kitchen
+"Robot, bring the pringles to the sink.",pringles,sink
+"Robot, fetch the grape juice from the living room.",juice,room
+"Robot, pick up the cup from the corridor.",cup,corridor
+"Robot, pick up the sausages and bring it to the sink.",sausages,sink
+"Robot, pick up the sponge and bring it to the counter.",sponge,counter
+"Robot, pick up the noodles and bring it to the desk.",noodles,desk
+"Robot, carry the pringles from the dining room to the bookcase.",pringles,bookcase
+"Robot, bring the cascade pod from the living room.",pod,room
+"Robot, bring the spoon to the dining table.",spoon,table
+"Robot, get the fork located in the dining room.",fork,room
+"Robot, bring me the sponge from the dining room.",sponge,room
+"Robot, get the potato chips located in the corridor.",chips,corridor
+"Robot, fetch me the coke from the corridor.",coke,corridor
+"Robot, fetch me the cup from the bedroom.",cup,bedroom
+"Robot, pick up the chocolate drink and place it in the bedroom.",drink,bedroom
+"Robot, pick up the sausages from the corridor.",sausages,corridor
+"Robot, get the sausages from the corridor and put it on the desk.",sausages,desk
+"Robot, pick up the bowl and place it in the bedroom.",bowl,bedroom
+"Robot, bring the bowl from the bedroom.",bowl,bedroom
+"Robot, carry the noodles to the storage table.",noodles,table
+"Robot, pick up the cereal and place it in the living room.",cereal,room
+"Robot, get the scrubby located in the dining room.",scrubby,room
+"Robot, carry the sausages from the cupboard to the living room.",sausages,room
+"Robot, pick up the fork from the bedroom.",fork,bedroom
+"Robot, carry the bowl from the end table to the kitchen.",bowl,kitchen
+"Robot, bring the cereal from the kitchen.",cereal,kitchen
+"Robot, get the chocolate drink from the dining room and put it on the dining table.",drink,table
+"Robot, bring the cloth to the sink.",cloth,sink
+"Robot, get the dish from the dining room and put it on the sink.",dish,sink
+"Robot, fetch the chocolate drink from the bedroom.",drink,bedroom
+"Robot, pick up the sausages.",sausages,
+"Robot, carry the cereal from the bedroom to the counter.",cereal,counter
+"Robot, bring the cascade pod to the end table.",pod,table
+"Robot, fetch the knife from the corridor.",knife,corridor
+"Robot, get the fork from the living room and bring it here.",fork,room
+"Robot, carry the coke to the dining table.",coke,table
+"Robot, carry the knife from the corridor to the counter.",knife,counter
+"Robot, get the sponge located in the bedroom.",sponge,bedroom
+"Robot, fetch the crackers and bring it to the living room.",crackers,room
+"Robot, fetch me the orange juice from the living room.",juice,room
+"Robot, carry the scrubby from the end table to the bedroom.",scrubby,bedroom
+"Robot, bring me the cloth from the bedroom.",cloth,bedroom
+"Robot, pick up the scrubby.",scrubby,
+"Robot, carry the cereal to the living room.",cereal,room
+"Robot, get the sausages from the living room and bring it here.",sausages,room
+"Robot, get me the dish from the dining table.",dish,table
+"Robot, carry the orange juice to the side table.",juice,table
+"Robot, bring the sprite to the side table.",sprite,table
+"Robot, pick up the fork and place it in the bedroom.",fork,bedroom
+"Robot, carry the noodles to the bookcase.",noodles,bookcase
+"Robot, carry the cereal from the sink to the living room.",cereal,room
+"Robot, pick up the sausages and place it in the living room.",sausages,room
+"Robot, pick up the sponge and bring it to the side table.",sponge,table
+"Robot, carry the sprite from the corridor to the bookcase.",sprite,bookcase
+"Robot, get me the orange juice from the desk.",juice,desk
+"Robot, fetch the sponge and place it on the side table.",sponge,table
+"Robot, fetch the spoon and place it on the sink.",spoon,sink
+"Robot, fetch me the cascade pod from the bedroom.",pod,bedroom
+"Robot, carry the sprite from the kitchen to the storage table.",sprite,table
+"Robot, pick up the cascade pod and bring it to the end table.",pod,table
+"Robot, pick up the noodles.",noodles,
+"Robot, get the pringles located in the bedroom.",pringles,bedroom
+"Robot, pick up the bowl and bring it to the counter.",bowl,counter
+"Robot, pick up the scrubby.",scrubby,
+"Robot, bring the cereal to the dining room.",cereal,room
+"Robot, bring the dish to the dining room.",dish,room
+"Robot, fetch the sprite and place it on the dining table.",sprite,table
+"Robot, fetch the potato chips and bring it to the living room.",chips,room
+"Robot, carry the sausages from the side table to the kitchen.",sausages,kitchen
+"Robot, pick up the cascade pod from the dining room.",pod,room
+"Robot, carry the potato chips to the living room.",chips,room
+"Robot, carry the crackers to the dining table.",crackers,table
+"Robot, fetch the fork and place it on the storage table.",fork,table
+"Robot, carry the bowl to the kitchen.",bowl,kitchen
+"Robot, bring the scrubby to the corridor.",scrubby,corridor
+"Robot, pick up the sponge and bring it to the bookcase.",sponge,bookcase
+"Robot, bring the bowl from the kitchen.",bowl,kitchen
+"Robot, get the pringles from the corridor and put it on the side table.",pringles,table
+"Robot, get the pringles from the dining room and put it on the bookcase.",pringles,bookcase
+"Robot, pick up the scrubby from the corridor.",scrubby,corridor
+"Robot, fetch the spoon from the dining room.",spoon,room
+"Robot, bring me the orange juice from the corridor.",juice,corridor
+"Robot, bring me the spoon from the living room.",spoon,room
+"Robot, fetch the dish from the bedroom.",dish,bedroom
+"Robot, carry the chocolate drink from the dining room to the desk.",drink,desk
+"Robot, pick up the noodles and bring it to the desk.",noodles,desk
+"Robot, pick up the dish and place it in the bedroom.",dish,bedroom
+"Robot, carry the orange juice to the corridor.",juice,corridor
+"Robot, bring me the cloth from the bedroom.",cloth,bedroom
+"Robot, bring the chocolate drink from the living room.",drink,room
+"Robot, get the pringles from the corridor and bring it here.",pringles,corridor
+"Robot, carry the chocolate drink to the dining room.",drink,room
+"Robot, carry the coke from the cupboard to the dining room.",coke,room
+"Robot, bring the coke to the storage table.",coke,table
+"Robot, fetch the fork and bring it to the living room.",fork,room
+"Robot, bring the noodles to the living room.",noodles,room
+"Robot, fetch the pringles from the bedroom.",pringles,bedroom
+"Robot, carry the cereal from the bookcase to the bedroom.",cereal,bedroom
+"Robot, fetch the noodles from the kitchen.",noodles,kitchen
+"Robot, fetch the orange juice and place it on the dining table.",juice,table
+"Robot, get the cup located in the corridor.",cup,corridor
+"Robot, fetch me the chocolate drink from the dining room.",drink,room
+"Robot, bring the chocolate drink to the side table.",drink,table
+"Robot, bring me the grape juice from the living room.",juice,room
+"Robot, pick up the sponge and bring it to the end table.",sponge,table
+"Robot, get the cloth from the living room and put it on the side table.",cloth,table
+"Robot, get the coke located in the living room.",coke,room
+"Robot, bring the sprite to the dining table.",sprite,table
+"Robot, pick up the fork and bring it to the sink.",fork,sink
+"Robot, pick up the dish and bring it to the storage table.",dish,table
+"Robot, carry the bowl from the living room to the bookcase.",bowl,bookcase
+"Robot, fetch the dish from the living room.",dish,room
+"Robot, bring me the cup from the corridor.",cup,corridor
+"Robot, get the sponge from the corridor and bring it here.",sponge,corridor
+"Robot, bring me the noodles from the kitchen.",noodles,kitchen
+"Robot, pick up the knife from the dining room.",knife,room
+"Robot, get the scrubby from the dining room and bring it here.",scrubby,room
+"Robot, carry the chocolate drink from the corridor to the counter.",drink,counter
+"Robot, pick up the orange juice from the dining room.",juice,room
+"Robot, pick up the scrubby and place it in the corridor.",scrubby,corridor
+"Robot, pick up the knife.",knife,
+"Robot, bring the crackers to the sink.",crackers,sink
+"Robot, fetch me the sausages from the corridor.",sausages,corridor
+"Robot, fetch the noodles and place it on the desk.",noodles,desk
+"Robot, carry the knife from the living room to the storage table.",knife,table
+"Robot, get the pringles located in the bedroom.",pringles,bedroom
+"Robot, get the bowl located in the kitchen.",bowl,kitchen
+"Robot, pick up the noodles and place it in the corridor.",noodles,corridor
+"Robot, carry the knife from the living room to the side table.",knife,table
+"Robot, fetch the sponge and bring it to the living room.",sponge,room
+"Robot, fetch the dish and bring it to the living room.",dish,room
+"Robot, get me the grape juice from the counter.",juice,counter
+"Robot, bring the chocolate drink to the counter.",drink,counter
+"Robot, pick up the chocolate drink from the living room.",drink,room
+"Robot, bring the scrubby to the side table.",scrubby,table
+"Robot, fetch me the pringles from the dining room.",pringles,room
+"Robot, pick up the cup from the living room.",cup,room
+"Robot, get the sprite from the kitchen and bring it here.",sprite,kitchen
+"Robot, get me the crackers from the sink.",crackers,sink
+"Robot, get the cup located in the kitchen.",cup,kitchen
+"Robot, bring the pringles to the storage table.",pringles,table
+"Robot, pick up the cascade pod from the corridor.",pod,corridor
+"Robot, fetch me the sprite from the dining room.",sprite,room
+"Robot, get the sponge located in the dining room.",sponge,room
+"Robot, get the noodles located in the living room.",noodles,room
+"Robot, get the sprite located in the dining room.",sprite,room
+"Robot, fetch the potato chips and bring it to the kitchen.",chips,kitchen
+"Robot, fetch the sausages and bring it to the living room.",sausages,room
+"Robot, pick up the sprite and bring it to the bookcase.",sprite,bookcase
+"Robot, get the orange juice located in the dining room.",juice,room
+"Robot, carry the sprite to the bookcase.",sprite,bookcase
+"Robot, bring the noodles to the end table.",noodles,table
+"Robot, fetch the cup and bring it to the living room.",cup,room
+"Robot, fetch the sprite and bring it to the kitchen.",sprite,kitchen
+"Robot, fetch the sponge from the living room.",sponge,room
+"Robot, bring me the orange juice from the dining room.",juice,room
+"Robot, bring the knife to the dining room.",knife,room
+"Robot, fetch the chocolate drink and bring it to the bedroom.",drink,bedroom
+"Robot, get me the cup from the cupboard.",cup,cupboard
+"Robot, get the cloth from the kitchen and bring it here.",cloth,kitchen
+"Robot, get the crackers located in the corridor.",crackers,corridor
+"Robot, get the sprite from the bedroom and put it on the sink.",sprite,sink
+"Robot, get me the sponge from the counter.",sponge,counter
+"Robot, carry the fork from the counter to the kitchen.",fork,kitchen
+"Robot, fetch the pringles and place it on the desk.",pringles,desk
+"Robot, bring the chocolate drink from the bedroom.",drink,bedroom
+"Robot, carry the sponge to the dining room.",sponge,room
+"Robot, fetch me the knife from the corridor.",knife,corridor
+"Robot, carry the chocolate drink to the side table.",drink,table
+"Robot, fetch the grape juice from the bedroom.",juice,bedroom
+"Robot, get me the sausages from the storage table.",sausages,table
+"Robot, fetch me the cascade pod from the corridor.",pod,corridor
+"Robot, fetch the crackers and place it on the desk.",crackers,desk
+"Robot, bring the grape juice to the bedroom.",juice,bedroom
+"Robot, carry the cereal to the dining room.",cereal,room
+"Robot, fetch the noodles and place it on the end table.",noodles,table
+"Robot, fetch me the knife from the kitchen.",knife,kitchen
+"Robot, fetch me the orange juice from the dining room.",juice,room
+"Robot, bring the spoon to the cupboard.",spoon,cupboard
+"Robot, bring me the dish from the kitchen.",dish,kitchen
+"Robot, fetch me the noodles from the corridor.",noodles,corridor
+"Robot, carry the cloth from the counter to the bedroom.",cloth,bedroom
+"Robot, get the cascade pod from the living room and bring it here.",pod,room
+"Robot, fetch the potato chips and place it on the side table.",chips,table
+"Robot, pick up the knife.",knife,
+"Robot, get the bowl from the living room and put it on the sink.",bowl,sink
+"Robot, fetch me the bowl from the kitchen.",bowl,kitchen
+"Robot, get the knife from the bedroom and bring it here.",knife,bedroom
+"Robot, get the noodles from the bedroom and bring it here.",noodles,bedroom
+"Robot, carry the coke to the bookcase.",coke,bookcase
+"Robot, fetch the sausages from the corridor.",sausages,corridor
+"Robot, get the cereal from the dining room and bring it here.",cereal,room
+"Robot, bring the cascade pod to the bedroom.",pod,bedroom
+"Robot, bring the noodles from the corridor.",noodles,corridor
+"Robot, get me the cup from the counter.",cup,counter
+"Robot, pick up the cereal from the dining room.",cereal,room
+"Robot, carry the noodles from the living room to the side table.",noodles,table
+"Robot, pick up the grape juice.",juice,
+"Robot, get the potato chips from the living room and put it on the cupboard.",chips,cupboard
+"Robot, carry the sprite to the dining room.",sprite,room
+"Robot, fetch the grape juice and bring it to the living room.",juice,room
+"Robot, bring the knife from the corridor.",knife,corridor
+"Robot, bring the fork to the living room.",fork,room
+"Robot, carry the cereal to the bedroom.",cereal,bedroom
+"Robot, carry the orange juice from the corridor to the end table.",juice,table
+"Robot, carry the scrubby to the dining room.",scrubby,room
+"Robot, bring the cup to the living room.",cup,room
+"Robot, carry the potato chips to the bookcase.",chips,bookcase
+"Robot, get the cereal from the bedroom and put it on the bookcase.",cereal,bookcase
+"Robot, pick up the sausages from the dining room.",sausages,room
+"Robot, bring the knife to the dining table.",knife,table
+"Robot, carry the spoon to the side table.",spoon,table
+"Robot, fetch me the potato chips from the living room.",chips,room
+"Robot, get me the sprite from the dining table.",sprite,table
+"Robot, fetch me the knife from the bedroom.",knife,bedroom
+"Robot, get the fork from the living room and put it on the cupboard.",fork,cupboard
+"Robot, carry the bowl from the side table to the kitchen.",bowl,kitchen
+"Robot, bring the cereal from the dining room.",cereal,room
+"Robot, fetch the sponge and place it on the sink.",sponge,sink
+"Robot, pick up the cup and place it in the bedroom.",cup,bedroom
+"Robot, bring the pringles to the corridor.",pringles,corridor
+"Robot, get the coke from the dining room and bring it here.",coke,room
+"Robot, pick up the sausages from the bedroom.",sausages,bedroom
+"Robot, pick up the spoon.",spoon,
+"Robot, get me the orange juice from the desk.",juice,desk
+"Robot, bring the cereal to the corridor.",cereal,corridor
+"Robot, bring the orange juice from the living room.",juice,room
+"Robot, carry the bowl to the desk.",bowl,desk
+"Robot, carry the cloth from the bedroom to the storage table.",cloth,table
+"Robot, pick up the scrubby and place it in the living room.",scrubby,room
+"Robot, fetch the dish and place it on the dining table.",dish,table
+"Robot, get the potato chips located in the kitchen.",chips,kitchen
+"Robot, carry the fork from the cupboard to the kitchen.",fork,kitchen
+"Robot, get the knife from the corridor and bring it here.",knife,corridor
+"Robot, fetch the bowl and bring it to the dining room.",bowl,room
+"Robot, carry the dish from the kitchen to the counter.",dish,counter
+"Robot, carry the sponge from the kitchen to the desk.",sponge,desk
+"Robot, pick up the chocolate drink and bring it to the sink.",drink,sink
+"Robot, bring the chocolate drink to the sink.",drink,sink
+"Robot, fetch me the cascade pod from the living room.",pod,room
+"Robot, get the potato chips located in the corridor.",chips,corridor
+"Robot, carry the scrubby from the side table to the kitchen.",scrubby,kitchen
+"Robot, fetch the coke from the corridor.",coke,corridor
+"Robot, carry the cereal to the kitchen.",cereal,kitchen
+"Robot, pick up the coke from the kitchen.",coke,kitchen
+"Robot, carry the chocolate drink to the storage table.",drink,table
+"Robot, get the noodles from the kitchen and bring it here.",noodles,kitchen
+"Robot, get me the noodles from the sink.",noodles,sink
+"Robot, bring the chocolate drink to the kitchen.",drink,kitchen
+"Robot, get the noodles located in the corridor.",noodles,corridor
+"Robot, fetch the crackers from the corridor.",crackers,corridor
+"Robot, bring the crackers from the kitchen.",crackers,kitchen
+"Robot, get the dish from the bedroom and bring it here.",dish,bedroom
+"Robot, carry the cup to the bedroom.",cup,bedroom
+"Robot, fetch me the spoon from the corridor.",spoon,corridor
+"Robot, get me the coke from the end table.",coke,table
+"Robot, pick up the sprite from the dining room.",sprite,room
+"Robot, get the knife from the dining room and put it on the desk.",knife,desk
+"Robot, bring the cascade pod to the dining room.",pod,room
+"Robot, carry the spoon from the bedroom to the storage table.",spoon,table
+"Robot, get me the grape juice from the cupboard.",juice,cupboard
+"Robot, carry the sponge from the end table to the living room.",sponge,room
+"Robot, fetch the sponge and bring it to the living room.",sponge,room
+"Robot, bring the cereal to the corridor.",cereal,corridor
+"Robot, get me the grape juice from the dining table.",juice,table
+"Robot, bring the pringles to the living room.",pringles,room
+"Robot, pick up the grape juice from the corridor.",juice,corridor
+"Robot, pick up the dish.",dish,
+"Robot, carry the noodles to the bedroom.",noodles,bedroom
+"Robot, bring me the cloth from the kitchen.",cloth,kitchen
+"Robot, carry the fork from the bookcase to the bedroom.",fork,bedroom
+"Robot, carry the crackers from the storage table to the bedroom.",crackers,bedroom
+"Robot, get the dish from the kitchen and bring it here.",dish,kitchen
+"Robot, bring the sausages from the dining room.",sausages,room
+"Robot, carry the pringles to the bedroom.",pringles,bedroom
+"Robot, carry the cascade pod from the counter to the living room.",pod,room
+"Robot, pick up the spoon and bring it to the sink.",spoon,sink
+"Robot, fetch the cloth and bring it to the kitchen.",cloth,kitchen
+"Robot, carry the dish from the bedroom to the cupboard.",dish,cupboard
+"Robot, fetch the cloth from the corridor.",cloth,corridor
+"Robot, carry the pringles from the kitchen to the dining table.",pringles,table
+"Robot, fetch the crackers and place it on the desk.",crackers,desk
+"Robot, fetch the dish from the dining room.",dish,room
+"Robot, bring the orange juice from the corridor.",juice,corridor
+"Robot, pick up the noodles and bring it to the bookcase.",noodles,bookcase
+"Robot, get the crackers from the kitchen and bring it here.",crackers,kitchen
+"Robot, get the cereal from the bedroom and put it on the end table.",cereal,table
+"Robot, carry the cereal to the dining room.",cereal,room
+"Robot, bring the crackers from the kitchen.",crackers,kitchen
+"Robot, get the cereal from the corridor and put it on the cupboard.",cereal,cupboard
+"Robot, get me the cereal from the end table.",cereal,table
+"Robot, pick up the cereal and place it in the kitchen.",cereal,kitchen
+"Robot, get the spoon from the dining room and put it on the dining table.",spoon,table
+"Robot, fetch me the sausages from the dining room.",sausages,room
+"Robot, fetch the chocolate drink and bring it to the bedroom.",drink,bedroom
+"Robot, get the cloth from the kitchen and bring it here.",cloth,kitchen
+"Robot, carry the coke from the sink to the kitchen.",coke,kitchen
+"Robot, fetch the spoon from the corridor.",spoon,corridor
+"Robot, carry the coke to the living room.",coke,room
+"Robot, pick up the bowl.",bowl,
+"Robot, carry the knife from the bedroom to the sink.",knife,sink
+"Robot, pick up the spoon from the dining room.",spoon,room
+"Robot, bring the fork to the corridor.",fork,corridor
+"Robot, carry the orange juice to the living room.",juice,room
+"Robot, pick up the scrubby and place it in the dining room.",scrubby,room
+"Robot, get me the fork from the bookcase.",fork,bookcase
+"Robot, get the spoon from the corridor and bring it here.",spoon,corridor
+"Robot, get me the cloth from the sink.",cloth,sink
+"Robot, pick up the crackers and place it in the kitchen.",crackers,kitchen
+"Robot, fetch the noodles and place it on the side table.",noodles,table
+"Robot, pick up the pringles and place it in the kitchen.",pringles,kitchen
+"Robot, fetch the potato chips from the dining room.",chips,room
+"Robot, get me the potato chips from the sink.",chips,sink
+"Robot, carry the grape juice to the counter.",juice,counter
+"Robot, pick up the sprite and bring it to the side table.",sprite,table
+"Robot, carry the cup from the dining room to the desk.",cup,desk
+"Robot, fetch the potato chips and place it on the counter.",chips,counter
+"Robot, bring me the cereal from the bedroom.",cereal,bedroom
+"Robot, pick up the noodles from the corridor.",noodles,corridor
+"Robot, bring the sausages to the bedroom.",sausages,bedroom
+"Robot, carry the spoon to the bedroom.",spoon,bedroom
+"Robot, carry the scrubby from the living room to the desk.",scrubby,desk
+"Robot, carry the dish to the bedroom.",dish,bedroom
+"Robot, fetch the potato chips from the corridor.",chips,corridor
+"Robot, get me the pringles from the dining table.",pringles,table
+"Robot, bring the chocolate drink to the dining table.",drink,table
+"Robot, bring me the spoon from the dining room.",spoon,room
+"Robot, get me the knife from the sink.",knife,sink
+"Robot, fetch me the bowl from the corridor.",bowl,corridor
+"Robot, bring the sponge to the bookcase.",sponge,bookcase
+"Robot, carry the sprite to the bookcase.",sprite,bookcase
+"Robot, bring me the pringles from the bedroom.",pringles,bedroom
+"Robot, pick up the pringles and place it in the corridor.",pringles,corridor
+"Robot, pick up the dish.",dish,
+"Robot, get the crackers from the corridor and put it on the side table.",crackers,table
+"Robot, fetch me the fork from the corridor.",fork,corridor
+"Robot, pick up the spoon and place it in the living room.",spoon,room
+"Robot, fetch the potato chips from the bedroom.",chips,bedroom
+"Robot, fetch the chocolate drink and bring it to the dining room.",drink,room
+"Robot, get the dish from the corridor and bring it here.",dish,corridor
+"Robot, carry the potato chips to the bedroom.",chips,bedroom
+"Robot, bring the spoon to the end table.",spoon,table
+"Robot, pick up the crackers.",crackers,
+"Robot, carry the dish from the end table to the dining room.",dish,room
+"Robot, bring the cloth to the dining room.",cloth,room
+"Robot, pick up the bowl.",bowl,
+"Robot, fetch the spoon and bring it to the kitchen.",spoon,kitchen
+"Robot, carry the cup to the corridor.",cup,corridor
+"Robot, pick up the spoon and bring it to the dining table.",spoon,table
+"Robot, get the cereal from the living room and put it on the dining table.",cereal,table
+"Robot, bring the sponge to the cupboard.",sponge,cupboard
+"Robot, carry the scrubby to the dining table.",scrubby,table
+"Robot, get the scrubby located in the living room.",scrubby,room
+"Robot, get me the bowl from the side table.",bowl,table
+"Robot, bring the bowl to the counter.",bowl,counter
+"Robot, get the fork from the bedroom and bring it here.",fork,bedroom
+"Robot, bring the crackers to the cupboard.",crackers,cupboard
+"Robot, fetch the sprite from the corridor.",sprite,corridor
+"Robot, bring the potato chips to the dining room.",chips,room
+"Robot, fetch me the cloth from the kitchen.",cloth,kitchen
+"Robot, get the noodles from the corridor and bring it here.",noodles,corridor
+"Robot, get me the knife from the desk.",knife,desk
+"Robot, get me the cascade pod from the side table.",pod,table
+"Robot, pick up the knife and bring it to the cupboard.",knife,cupboard
+"Robot, carry the orange juice to the kitchen.",juice,kitchen
+"Robot, fetch the pringles from the kitchen.",pringles,kitchen
+"Robot, pick up the scrubby.",scrubby,
+"Robot, get the crackers from the dining room and bring it here.",crackers,room
+"Robot, get the knife from the dining room and bring it here.",knife,room
+"Robot, bring the coke to the counter.",coke,counter
+"Robot, bring me the coke from the living room.",coke,room
+"Robot, get the grape juice located in the dining room.",juice,room
+"Robot, carry the dish to the desk.",dish,desk
+"Robot, get the pringles from the living room and bring it here.",pringles,room
+"Robot, carry the sausages to the kitchen.",sausages,kitchen
+"Robot, carry the sponge from the dining room to the end table.",sponge,table
+"Robot, get the crackers located in the corridor.",crackers,corridor
+"Robot, pick up the sprite and bring it to the cupboard.",sprite,cupboard
+"Robot, get the sprite from the corridor and bring it here.",sprite,corridor
+"Robot, carry the scrubby to the dining room.",scrubby,room
+"Robot, get the sponge located in the living room.",sponge,room
+"Robot, bring the bowl from the dining room.",bowl,room
+"Robot, bring the cereal from the dining room.",cereal,room
+"Robot, carry the sponge to the bedroom.",sponge,bedroom
+"Robot, bring the fork to the storage table.",fork,table
+"Robot, fetch the scrubby from the bedroom.",scrubby,bedroom
+"Robot, carry the knife to the living room.",knife,room
+"Robot, pick up the sponge from the corridor.",sponge,corridor
+"Robot, get the sponge from the kitchen and put it on the end table.",sponge,table
+"Robot, get the cup from the kitchen and bring it here.",cup,kitchen
+"Robot, fetch the crackers and place it on the end table.",crackers,table
+"Robot, fetch the crackers and place it on the dining table.",crackers,table
+"Robot, get the spoon located in the kitchen.",spoon,kitchen
+"Robot, get the scrubby from the kitchen and put it on the side table.",scrubby,table
+"Robot, carry the sponge from the end table to the bedroom.",sponge,bedroom
+"Robot, bring the cereal from the bedroom.",cereal,bedroom
+"Robot, bring the bowl from the bedroom.",bowl,bedroom
+"Robot, bring the spoon to the counter.",spoon,counter
+"Robot, carry the crackers to the bedroom.",crackers,bedroom
+"Robot, bring me the bowl from the bedroom.",bowl,bedroom
+"Robot, carry the bowl from the bedroom to the side table.",bowl,table
+"Robot, pick up the coke from the corridor.",coke,corridor
+"Robot, pick up the noodles and place it in the corridor.",noodles,corridor
+"Robot, carry the dish from the kitchen to the desk.",dish,desk
+"Robot, pick up the cloth and place it in the bedroom.",cloth,bedroom
+"Robot, get the sprite located in the corridor.",sprite,corridor
+"Robot, fetch the sprite from the dining room.",sprite,room
+"Robot, fetch the pringles from the corridor.",pringles,corridor
+"Robot, get me the potato chips from the sink.",chips,sink
+"Robot, bring the scrubby to the end table.",scrubby,table
+"Robot, fetch the cereal from the dining room.",cereal,room
+"Robot, carry the cereal from the bedroom to the desk.",cereal,desk
+"Robot, get the cup from the dining room and bring it here.",cup,room
+"Robot, pick up the fork and place it in the living room.",fork,room
+"Robot, carry the cup from the living room to the cupboard.",cup,cupboard
+"Robot, bring the grape juice to the corridor.",juice,corridor
+"Robot, get the sponge from the living room and put it on the bookcase.",sponge,bookcase
+"Robot, fetch the crackers and bring it to the dining room.",crackers,room
+"Robot, get the cereal from the kitchen and put it on the end table.",cereal,table
+"Robot, bring the orange juice to the side table.",juice,table
+"Robot, carry the coke to the dining table.",coke,table
+"Robot, bring me the coke from the living room.",coke,room
+"Robot, carry the potato chips to the dining room.",chips,room
+"Robot, bring the cup to the living room.",cup,room
+"Robot, fetch the pringles and bring it to the dining room.",pringles,room
+"Robot, carry the cereal to the sink.",cereal,sink
+"Robot, bring me the fork from the dining room.",fork,room
+"Robot, fetch the potato chips from the living room.",chips,room
+"Robot, bring the grape juice to the corridor.",juice,corridor
+"Robot, pick up the spoon and place it in the corridor.",spoon,corridor
+"Robot, carry the cloth to the cupboard.",cloth,cupboard
+"Robot, carry the sausages to the bookcase.",sausages,bookcase
+"Robot, get me the pringles from the counter.",pringles,counter
+"Robot, pick up the coke and place it in the bedroom.",coke,bedroom
+"Robot, carry the cereal from the cupboard to the bedroom.",cereal,bedroom
+"Robot, get the orange juice from the living room and bring it here.",juice,room
+"Robot, get the coke located in the corridor.",coke,corridor
+"Robot, bring me the scrubby from the corridor.",scrubby,corridor
+"Robot, carry the pringles from the sink to the living room.",pringles,room
+"Robot, fetch the coke and place it on the end table.",coke,table
+"Robot, get the knife from the kitchen and bring it here.",knife,kitchen
+"Robot, carry the sausages to the sink.",sausages,sink
+"Robot, get the chocolate drink located in the corridor.",drink,corridor
+"Robot, carry the dish to the dining room.",dish,room
+"Robot, carry the fork to the end table.",fork,table
+"Robot, pick up the chocolate drink and place it in the dining room.",drink,room
+"Robot, carry the noodles to the cupboard.",noodles,cupboard
+"Robot, fetch me the orange juice from the living room.",juice,room
+"Robot, bring the sponge to the corridor.",sponge,corridor
+"Robot, get the cup from the corridor and bring it here.",cup,corridor
+"Robot, fetch me the cup from the dining room.",cup,room
+"Robot, pick up the bowl from the bedroom.",bowl,bedroom
+"Robot, get the fork from the living room and bring it here.",fork,room
+"Robot, get the fork located in the corridor.",fork,corridor
+"Robot, get me the pringles from the storage table.",pringles,table
+"Robot, bring me the potato chips from the dining room.",chips,room
+"Robot, pick up the sausages and bring it to the desk.",sausages,desk
+"Robot, bring me the noodles from the bedroom.",noodles,bedroom
+"Robot, bring the scrubby from the corridor.",scrubby,corridor
+"Robot, get the sprite from the living room and put it on the storage table.",sprite,table
+"Robot, carry the pringles from the counter to the dining room.",pringles,room
+"Robot, fetch me the cascade pod from the kitchen.",pod,kitchen
+"Robot, get the fork located in the corridor.",fork,corridor
+"Robot, pick up the sausages and bring it to the desk.",sausages,desk
+"Robot, carry the grape juice from the bedroom to the side table.",juice,table
+"Robot, fetch the pringles and place it on the sink.",pringles,sink
+"Robot, pick up the pringles and place it in the bedroom.",pringles,bedroom
+"Robot, fetch the potato chips and place it on the end table.",chips,table
+"Robot, pick up the crackers and bring it to the cupboard.",crackers,cupboard
+"Robot, carry the dish from the dining room to the counter.",dish,counter
+"Robot, get the sausages from the dining room and put it on the sink.",sausages,sink
+"Robot, carry the crackers to the sink.",crackers,sink
+"Robot, bring the cereal from the dining room.",cereal,room
+"Robot, pick up the spoon and bring it to the bookcase.",spoon,bookcase
+"Robot, fetch the noodles from the living room.",noodles,room
+"Robot, bring the cereal to the end table.",cereal,table
+"Robot, carry the chocolate drink to the dining room.",drink,room
+"Robot, fetch the dish from the corridor.",dish,corridor
+"Robot, get the coke from the dining room and put it on the sink.",coke,sink
+"Robot, fetch the coke and bring it to the living room.",coke,room
+"Robot, get the chocolate drink from the corridor and put it on the desk.",drink,desk
+"Robot, fetch the pringles from the corridor.",pringles,corridor
+"Robot, pick up the sprite.",sprite,
+"Robot, fetch the cascade pod from the bedroom.",pod,bedroom
+"Robot, fetch the fork from the corridor.",fork,corridor
+"Robot, pick up the sponge and place it in the bedroom.",sponge,bedroom
+"Robot, bring me the dish from the living room.",dish,room
+"Robot, pick up the chocolate drink.",drink,
+"Robot, get the coke located in the corridor.",coke,corridor
+"Robot, pick up the dish from the bedroom.",dish,bedroom
+"Robot, fetch the sponge and bring it to the corridor.",sponge,corridor
+"Robot, get the cup from the dining room and put it on the dining table.",cup,table
+"Robot, fetch me the bowl from the living room.",bowl,room
+"Robot, get the sprite located in the kitchen.",sprite,kitchen
+"Robot, carry the noodles to the bedroom.",noodles,bedroom
+"Robot, fetch the coke and bring it to the living room.",coke,room
+"Robot, bring the spoon to the dining room.",spoon,room
+"Robot, fetch the scrubby from the kitchen.",scrubby,kitchen
+"Robot, pick up the cup from the dining room.",cup,room
+"Robot, pick up the spoon.",spoon,
+"Robot, fetch me the knife from the bedroom.",knife,bedroom
+"Robot, fetch the grape juice from the living room.",juice,room
+"Robot, get the sprite from the dining room and bring it here.",sprite,room
+"Robot, get me the knife from the dining table.",knife,table
+"Robot, bring me the orange juice from the corridor.",juice,corridor
+"Robot, pick up the pringles from the living room.",pringles,room
+"Robot, get me the cup from the bookcase.",cup,bookcase
+"Robot, bring the sprite to the corridor.",sprite,corridor
+"Robot, get me the grape juice from the storage table.",juice,table
+"Robot, get me the grape juice from the end table.",juice,table
+"Robot, carry the spoon from the sink to the kitchen.",spoon,kitchen
+"Robot, carry the pringles from the side table to the bedroom.",pringles,bedroom
+"Robot, pick up the cereal from the bedroom.",cereal,bedroom
+"Robot, pick up the pringles and place it in the kitchen.",pringles,kitchen
+"Robot, pick up the crackers and place it in the kitchen.",crackers,kitchen
+"Robot, fetch the scrubby and place it on the storage table.",scrubby,table
+"Robot, fetch the cup from the living room.",cup,room
+"Robot, carry the sausages to the storage table.",sausages,table
+"Robot, pick up the chocolate drink and place it in the kitchen.",drink,kitchen
+"Robot, pick up the dish from the dining room.",dish,room
+"Robot, bring the dish to the living room.",dish,room
+"Robot, fetch the grape juice from the kitchen.",juice,kitchen
+"Robot, fetch the dish and bring it to the bedroom.",dish,bedroom
+"Robot, pick up the sprite and place it in the living room.",sprite,room
+"Robot, carry the coke from the living room to the cupboard.",coke,cupboard
+"Robot, carry the chocolate drink from the dining table to the corridor.",drink,corridor
+"Robot, get the cereal from the corridor and bring it here.",cereal,corridor
+"Robot, pick up the dish and place it in the kitchen.",dish,kitchen
+"Robot, bring me the cascade pod from the corridor.",pod,corridor
+"Robot, pick up the spoon.",spoon,
+"Robot, fetch the knife and bring it to the corridor.",knife,corridor
+"Robot, carry the spoon from the counter to the bedroom.",spoon,bedroom
+"Robot, pick up the grape juice.",juice,
+"Robot, bring the fork to the desk.",fork,desk
+"Robot, pick up the potato chips.",chips,
+"Robot, fetch me the potato chips from the bedroom.",chips,bedroom
+"Robot, carry the potato chips to the dining room.",chips,room
+"Robot, bring the chocolate drink from the corridor.",drink,corridor
+"Robot, bring me the grape juice from the dining room.",juice,room
+"Robot, carry the dish to the corridor.",dish,corridor
+"Robot, pick up the crackers.",crackers,
+"Robot, carry the potato chips from the living room to the desk.",chips,desk
+"Robot, fetch me the dish from the dining room.",dish,room
+"Robot, pick up the bowl.",bowl,
+"Robot, carry the scrubby from the cupboard to the corridor.",scrubby,corridor
+"Robot, fetch the coke from the corridor.",coke,corridor
+"Robot, carry the bowl to the corridor.",bowl,corridor
+"Robot, bring the crackers to the dining room.",crackers,room
+"Robot, bring me the sausages from the bedroom.",sausages,bedroom
+"Robot, pick up the sausages and bring it to the side table.",sausages,table
+"Robot, bring the scrubby from the dining room.",scrubby,room
+"Robot, pick up the spoon and place it in the dining room.",spoon,room
+"Robot, bring the spoon to the sink.",spoon,sink
+"Robot, fetch the spoon from the corridor.",spoon,corridor
+"Robot, get me the crackers from the cupboard.",crackers,cupboard
+"Robot, carry the noodles from the bedroom to the bookcase.",noodles,bookcase
+"Robot, carry the cereal to the living room.",cereal,room
+"Robot, bring the sprite to the living room.",sprite,room
+"Robot, carry the chocolate drink from the dining room to the bookcase.",drink,bookcase
+"Robot, get the cereal located in the dining room.",cereal,room
+"Robot, pick up the pringles.",pringles,
+"Robot, carry the spoon to the cupboard.",spoon,cupboard
+"Robot, carry the grape juice from the counter to the kitchen.",juice,kitchen
+"Robot, get the sponge from the kitchen and bring it here.",sponge,kitchen
+"Robot, pick up the dish and bring it to the storage table.",dish,table
+"Robot, get the knife from the bedroom and bring it here.",knife,bedroom
+"Robot, bring the sponge from the kitchen.",sponge,kitchen
+"Robot, pick up the bowl and place it in the corridor.",bowl,corridor
+"Robot, fetch the cascade pod and place it on the sink.",pod,sink
+"Robot, pick up the spoon from the kitchen.",spoon,kitchen
+"Robot, pick up the cloth and bring it to the storage table.",cloth,table
+"Robot, bring the orange juice to the sink.",juice,sink
+"Robot, get the bowl located in the dining room.",bowl,room
+"Robot, get the dish located in the living room.",dish,room
+"Robot, carry the chocolate drink to the side table.",drink,table
+"Robot, fetch the cereal and place it on the storage table.",cereal,table
+"Robot, fetch the spoon and bring it to the dining room.",spoon,room
+"Robot, pick up the sprite from the bedroom.",sprite,bedroom
+"Robot, get me the potato chips from the side table.",chips,table
+"Robot, get me the spoon from the counter.",spoon,counter
+"Robot, fetch me the cascade pod from the corridor.",pod,corridor
+"Robot, fetch the grape juice and bring it to the bedroom.",juice,bedroom
+"Robot, fetch me the sausages from the kitchen.",sausages,kitchen
+"Robot, get the sausages located in the dining room.",sausages,room
+"Robot, carry the sausages to the sink.",sausages,sink
+"Robot, fetch the grape juice and bring it to the bedroom.",juice,bedroom
+"Robot, get the sponge from the living room and put it on the sink.",sponge,sink
+"Robot, carry the knife from the storage table to the corridor.",knife,corridor
+"Robot, bring the dish to the corridor.",dish,corridor
+"Robot, carry the sausages to the bedroom.",sausages,bedroom
+"Robot, fetch the knife and place it on the counter.",knife,counter
+"Robot, carry the chocolate drink to the kitchen.",drink,kitchen
+"Robot, carry the sausages from the corridor to the cupboard.",sausages,cupboard
+"Robot, pick up the orange juice from the corridor.",juice,corridor
+"Robot, get the orange juice from the bedroom and bring it here.",juice,bedroom
+"Robot, carry the sausages from the side table to the living room.",sausages,room
+"Robot, carry the noodles from the bedroom to the storage table.",noodles,table
+"Robot, bring the cascade pod to the dining room.",pod,room
+"Robot, fetch the sausages and bring it to the kitchen.",sausages,kitchen
+"Robot, fetch me the sponge from the bedroom.",sponge,bedroom
+"Robot, get the cascade pod from the corridor and bring it here.",pod,corridor
+"Robot, bring the scrubby to the counter.",scrubby,counter
+"Robot, get the sprite from the bedroom and bring it here.",sprite,bedroom
+"Robot, get the knife from the kitchen and bring it here.",knife,kitchen
+"Robot, pick up the sausages and bring it to the cupboard.",sausages,cupboard
+"Robot, fetch the bowl and bring it to the living room.",bowl,room
+"Robot, fetch the pringles from the living room.",pringles,room
+"Robot, pick up the knife from the living room.",knife,room
+"Robot, carry the fork from the sink to the dining room.",fork,room
+"Robot, bring the cup to the bookcase.",cup,bookcase
+"Robot, bring the noodles from the bedroom.",noodles,bedroom
+"Robot, carry the cascade pod from the corridor to the cupboard.",pod,cupboard
+"Robot, pick up the cereal from the living room.",cereal,room
+"Robot, fetch the cup and bring it to the kitchen.",cup,kitchen
+"Robot, carry the bowl from the bedroom to the bookcase.",bowl,bookcase
+"Robot, carry the spoon from the desk to the bedroom.",spoon,bedroom
+"Robot, carry the pringles from the dining table to the dining room.",pringles,room
+"Robot, carry the noodles from the kitchen to the end table.",noodles,table
+"Robot, fetch the sponge and bring it to the dining room.",sponge,room
+"Robot, carry the coke from the kitchen to the desk.",coke,desk
+"Robot, pick up the chocolate drink and place it in the corridor.",drink,corridor
+"Robot, pick up the knife.",knife,
+"Robot, bring the sprite to the end table.",sprite,table
+"Robot, fetch the spoon from the dining room.",spoon,room
+"Robot, pick up the grape juice and place it in the living room.",juice,room
+"Robot, pick up the pringles and bring it to the storage table.",pringles,table
+"Robot, pick up the scrubby and place it in the living room.",scrubby,room
+"Robot, bring the grape juice to the corridor.",juice,corridor
+"Robot, get the knife from the living room and put it on the cupboard.",knife,cupboard
+"Robot, fetch the noodles from the corridor.",noodles,corridor
+"Robot, bring me the dish from the living room.",dish,room
+"Robot, carry the fork to the dining room.",fork,room
+"Robot, fetch the grape juice and bring it to the bedroom.",juice,bedroom
+"Robot, carry the cup to the kitchen.",cup,kitchen
+"Robot, carry the crackers to the living room.",crackers,room
+"Robot, pick up the chocolate drink from the corridor.",drink,corridor
+"Robot, get the crackers from the living room and bring it here.",crackers,room
+"Robot, carry the cloth from the end table to the dining room.",cloth,room
+"Robot, fetch the scrubby and bring it to the dining room.",scrubby,room
+"Robot, carry the cloth to the bedroom.",cloth,bedroom
+"Robot, get the cascade pod from the kitchen and put it on the cupboard.",pod,cupboard
+"Robot, carry the noodles to the dining room.",noodles,room
+"Robot, bring the dish to the cupboard.",dish,cupboard
+"Robot, bring the sprite to the corridor.",sprite,corridor
+"Robot, bring the noodles from the bedroom.",noodles,bedroom
+"Robot, pick up the sausages and bring it to the sink.",sausages,sink
+"Robot, pick up the cascade pod and place it in the living room.",pod,room
+"Robot, carry the bowl to the cupboard.",bowl,cupboard
+"Robot, pick up the coke and bring it to the cupboard.",coke,cupboard
+"Robot, pick up the potato chips.",chips,
+"Robot, pick up the cup and bring it to the cupboard.",cup,cupboard
+"Robot, fetch me the cereal from the kitchen.",cereal,kitchen
+"Robot, bring the cup to the end table.",cup,table
+"Robot, bring the fork to the counter.",fork,counter
+"Robot, get the cloth from the corridor and put it on the counter.",cloth,counter
+"Robot, fetch the cup from the bedroom.",cup,bedroom
+"Robot, fetch the orange juice and place it on the dining table.",juice,table
+"Robot, bring the crackers to the sink.",crackers,sink
+"Robot, carry the scrubby from the bedroom to the side table.",scrubby,table
+"Robot, bring the fork to the dining room.",fork,room
+"Robot, fetch me the cloth from the dining room.",cloth,room
+"Robot, bring the pringles from the living room.",pringles,room
+"Robot, pick up the spoon.",spoon,
+"Robot, get the scrubby from the living room and put it on the dining table.",scrubby,table
+"Robot, bring the potato chips from the kitchen.",chips,kitchen
+"Robot, pick up the fork and bring it to the desk.",fork,desk
+"Robot, fetch the dish and place it on the storage table.",dish,table
+"Robot, carry the scrubby from the living room to the storage table.",scrubby,table
+"Robot, get the cup from the living room and bring it here.",cup,room
+"Robot, fetch the sponge and bring it to the living room.",sponge,room
+"Robot, fetch the sprite from the corridor.",sprite,corridor
+"Robot, fetch the cup and place it on the bookcase.",cup,bookcase
+"Robot, fetch me the crackers from the corridor.",crackers,corridor
+"Robot, get me the bowl from the cupboard.",bowl,cupboard
+"Robot, fetch the chocolate drink and place it on the storage table.",drink,table
+"Robot, bring the knife from the bedroom.",knife,bedroom
+"Robot, carry the sausages to the sink.",sausages,sink
+"Robot, carry the sprite to the living room.",sprite,room
+"Robot, pick up the sprite and bring it to the bookcase.",sprite,bookcase
+"Robot, pick up the cloth.",cloth,
+"Robot, carry the crackers to the bedroom.",crackers,bedroom
+"Robot, fetch the noodles and place it on the side table.",noodles,table
+"Robot, fetch the potato chips from the corridor.",chips,corridor
+"Robot, carry the sausages to the living room.",sausages,room
+"Robot, bring the fork from the kitchen.",fork,kitchen
+"Robot, pick up the cloth and place it in the corridor.",cloth,corridor
+"Robot, carry the dish to the end table.",dish,table
+"Robot, fetch the cereal and place it on the cupboard.",cereal,cupboard
+"Robot, fetch the orange juice and bring it to the kitchen.",juice,kitchen
+"Robot, get me the sponge from the storage table.",sponge,table
+"Robot, fetch the bowl and place it on the counter.",bowl,counter
+"Robot, pick up the noodles.",noodles,
+"Robot, carry the bowl to the sink.",bowl,sink
+"Robot, carry the fork from the desk to the living room.",fork,room
+"Robot, fetch the chocolate drink and bring it to the bedroom.",drink,bedroom
+"Robot, pick up the cloth from the corridor.",cloth,corridor
+"Robot, fetch the noodles and bring it to the kitchen.",noodles,kitchen
+"Robot, fetch the noodles from the kitchen.",noodles,kitchen
+"Robot, pick up the dish and bring it to the desk.",dish,desk
+"Robot, carry the orange juice from the counter to the dining room.",juice,room
+"Robot, get the bowl from the corridor and bring it here.",bowl,corridor
+"Robot, fetch the chocolate drink and bring it to the corridor.",drink,corridor
+"Robot, pick up the bowl.",bowl,
+"Robot, pick up the chocolate drink and bring it to the desk.",drink,desk
+"Robot, pick up the coke from the living room.",coke,room
+"Robot, get the crackers from the bedroom and put it on the bookcase.",crackers,bookcase
+"Robot, carry the knife to the storage table.",knife,table
+"Robot, pick up the cereal and bring it to the dining table.",cereal,table
+"Robot, pick up the dish and bring it to the end table.",dish,table
+"Robot, carry the sausages from the cupboard to the kitchen.",sausages,kitchen
+"Robot, get the sponge from the corridor and bring it here.",sponge,corridor
+"Robot, carry the chocolate drink to the counter.",drink,counter
+"Robot, carry the chocolate drink from the corridor to the bookcase.",drink,bookcase
+"Robot, fetch the chocolate drink from the living room.",drink,room
+"Robot, bring me the orange juice from the living room.",juice,room
+"Robot, get the potato chips from the dining room and bring it here.",chips,room
+"Robot, fetch me the fork from the corridor.",fork,corridor
+"Robot, carry the fork from the corridor to the sink.",fork,sink
+"Robot, get me the potato chips from the end table.",chips,table
+"Robot, fetch the grape juice and place it on the cupboard.",juice,cupboard
+"Robot, fetch me the pringles from the living room.",pringles,room
+"Robot, pick up the pringles.",pringles,
+"Robot, pick up the cascade pod and place it in the living room.",pod,room
+"Robot, fetch the cascade pod and place it on the sink.",pod,sink
+"Robot, bring the noodles from the corridor.",noodles,corridor
+"Robot, pick up the knife and bring it to the storage table.",knife,table
+"Robot, pick up the sponge.",sponge,
+"Robot, pick up the orange juice from the bedroom.",juice,bedroom
+"Robot, carry the sausages to the corridor.",sausages,corridor
+"Robot, fetch the chocolate drink and bring it to the dining room.",drink,room
+"Robot, fetch the cup from the dining room.",cup,room
+"Robot, carry the dish from the kitchen to the side table.",dish,table
+"Robot, pick up the potato chips.",chips,
+"Robot, carry the orange juice from the corridor to the bookcase.",juice,bookcase
+"Robot, carry the spoon to the bookcase.",spoon,bookcase
+"Robot, get the sausages located in the kitchen.",sausages,kitchen
+"Robot, fetch the bowl and bring it to the bedroom.",bowl,bedroom
+"Robot, fetch me the crackers from the living room.",crackers,room
+"Robot, pick up the cascade pod and bring it to the side table.",pod,table
+"Robot, bring the potato chips to the counter.",chips,counter
+"Robot, get the scrubby located in the bedroom.",scrubby,bedroom
+"Robot, get the bowl from the kitchen and put it on the storage table.",bowl,table
+"Robot, fetch the sausages from the kitchen.",sausages,kitchen
+"Robot, get me the cascade pod from the cupboard.",pod,cupboard
+"Robot, fetch the noodles and bring it to the corridor.",noodles,corridor
+"Robot, get the sausages located in the bedroom.",sausages,bedroom
+"Robot, bring the orange juice from the bedroom.",juice,bedroom
+"Robot, get the sprite located in the dining room.",sprite,room
+"Robot, pick up the cloth and bring it to the bookcase.",cloth,bookcase
+"Robot, fetch the knife and place it on the dining table.",knife,table
+"Robot, get the scrubby from the kitchen and bring it here.",scrubby,kitchen
+"Robot, pick up the grape juice from the dining room.",juice,room
+"Robot, carry the spoon to the bookcase.",spoon,bookcase
+"Robot, fetch the cloth and place it on the bookcase.",cloth,bookcase
+"Robot, bring the cup to the dining table.",cup,table
+"Robot, bring the bowl to the sink.",bowl,sink
+"Robot, bring the cloth to the bookcase.",cloth,bookcase
+"Robot, carry the pringles to the sink.",pringles,sink
+"Robot, fetch the pringles from the dining room.",pringles,room
+"Robot, get the coke from the corridor and bring it here.",coke,corridor
+"Robot, carry the coke from the bookcase to the dining room.",coke,room
+"Robot, get me the knife from the counter.",knife,counter
+"Robot, carry the noodles from the kitchen to the side table.",noodles,table
+"Robot, bring the chocolate drink to the corridor.",drink,corridor
+"Robot, pick up the orange juice.",juice,
+"Robot, bring the cascade pod from the corridor.",pod,corridor
+"Robot, pick up the chocolate drink from the kitchen.",drink,kitchen
+"Robot, fetch me the scrubby from the corridor.",scrubby,corridor
+"Robot, pick up the cereal and place it in the kitchen.",cereal,kitchen
+"Robot, fetch the orange juice and place it on the dining table.",juice,table
+"Robot, fetch the orange juice and bring it to the corridor.",juice,corridor
+"Robot, carry the coke from the living room to the side table.",coke,table
+"Robot, carry the cup to the bedroom.",cup,bedroom
+"Robot, get the orange juice from the corridor and bring it here.",juice,corridor
+"Robot, bring me the coke from the dining room.",coke,room
+"Robot, fetch me the cereal from the corridor.",cereal,corridor
+"Robot, bring the scrubby to the storage table.",scrubby,table
+"Robot, bring the sprite to the desk.",sprite,desk
+"Robot, get me the spoon from the dining table.",spoon,table
+"Robot, fetch the chocolate drink and bring it to the bedroom.",drink,bedroom
+"Robot, fetch me the orange juice from the bedroom.",juice,bedroom
+"Robot, pick up the cup.",cup,
+"Robot, pick up the cloth and bring it to the sink.",cloth,sink
+"Robot, pick up the potato chips and place it in the bedroom.",chips,bedroom
+"Robot, fetch the bowl and place it on the bookcase.",bowl,bookcase
+"Robot, bring the coke to the dining table.",coke,table
+"Robot, get the potato chips from the kitchen and bring it here.",chips,kitchen
+"Robot, fetch the spoon and bring it to the dining room.",spoon,room
+"Robot, get me the chocolate drink from the cupboard.",drink,cupboard
+"Robot, fetch the fork and place it on the side table.",fork,table
+"Robot, fetch the sprite and place it on the end table.",sprite,table
+"Robot, get the pringles from the dining room and put it on the sink.",pringles,sink
+"Robot, fetch the coke and place it on the dining table.",coke,table
+"Robot, pick up the bowl from the corridor.",bowl,corridor
+"Robot, bring the dish from the living room.",dish,room
+"Robot, pick up the sprite.",sprite,
+"Robot, pick up the grape juice from the living room.",juice,room
+"Robot, get me the knife from the storage table.",knife,table
+"Robot, carry the sponge from the kitchen to the dining table.",sponge,table
+"Robot, bring the grape juice to the living room.",juice,room
+"Robot, get the chocolate drink from the dining room and bring it here.",drink,room
+"Robot, fetch the knife from the dining room.",knife,room
+"Robot, get me the dish from the side table.",dish,table
+"Robot, fetch me the bowl from the corridor.",bowl,corridor
+"Robot, carry the dish from the kitchen to the sink.",dish,sink
+"Robot, bring the sponge from the living room.",sponge,room
+"Robot, fetch the orange juice from the dining room.",juice,room
+"Robot, pick up the scrubby from the living room.",scrubby,room
+"Robot, bring the chocolate drink from the corridor.",drink,corridor
+"Robot, get me the bowl from the sink.",bowl,sink
+"Robot, bring the scrubby from the bedroom.",scrubby,bedroom
+"Robot, pick up the crackers.",crackers,
+"Robot, carry the cup from the side table to the corridor.",cup,corridor
+"Robot, pick up the cup and bring it to the storage table.",cup,table
+"Robot, fetch the knife from the bedroom.",knife,bedroom
+"Robot, fetch the dish and bring it to the living room.",dish,room
+"Robot, pick up the pringles and place it in the living room.",pringles,room
+"Robot, fetch the cascade pod and place it on the dining table.",pod,table
+"Robot, carry the scrubby from the desk to the bedroom.",scrubby,bedroom
+"Robot, fetch the spoon from the dining room.",spoon,room
+"Robot, get the sprite from the kitchen and put it on the cupboard.",sprite,cupboard
+"Robot, fetch the sponge and place it on the side table.",sponge,table
+"Robot, get the crackers from the corridor and bring it here.",crackers,corridor
+"Robot, bring the dish from the kitchen.",dish,kitchen
+"Robot, bring the crackers to the corridor.",crackers,corridor
+"Robot, pick up the scrubby and place it in the kitchen.",scrubby,kitchen
+"Robot, fetch the knife and bring it to the living room.",knife,room
+"Robot, get the cup from the dining room and bring it here.",cup,room
+"Robot, carry the potato chips from the side table to the living room.",chips,room
+"Robot, get the knife from the living room and put it on the storage table.",knife,table
+"Robot, bring the coke to the end table.",coke,table
+"Robot, bring the bowl to the dining room.",bowl,room
+"Robot, bring me the potato chips from the kitchen.",chips,kitchen
+"Robot, pick up the orange juice from the kitchen.",juice,kitchen
+"Robot, pick up the scrubby and place it in the dining room.",scrubby,room
+"Robot, get the pringles located in the living room.",pringles,room
+"Robot, carry the crackers from the sink to the living room.",crackers,room
+"Robot, fetch the grape juice from the dining room.",juice,room
+"Robot, get the cascade pod from the corridor and put it on the counter.",pod,counter
+"Robot, pick up the grape juice and bring it to the side table.",juice,table
+"Robot, pick up the crackers.",crackers,
+"Robot, fetch the cloth from the dining room.",cloth,room
+"Robot, bring the orange juice to the dining table.",juice,table
+"Robot, bring the sausages to the corridor.",sausages,corridor
+"Robot, bring the dish to the corridor.",dish,corridor
+"Robot, bring the sponge to the dining room.",sponge,room
+"Robot, bring the sponge to the bedroom.",sponge,bedroom
+"Robot, bring the crackers to the living room.",crackers,room
+"Robot, fetch the crackers from the corridor.",crackers,corridor
+"Robot, bring the pringles to the end table.",pringles,table
+"Robot, carry the sponge to the dining room.",sponge,room
+"Robot, pick up the cereal and bring it to the dining table.",cereal,table
+"Robot, fetch the scrubby and bring it to the corridor.",scrubby,corridor
+"Robot, bring the knife from the kitchen.",knife,kitchen
+"Robot, carry the scrubby to the corridor.",scrubby,corridor
+"Robot, carry the cloth from the dining table to the corridor.",cloth,corridor
+"Robot, pick up the cascade pod.",pod,
+"Robot, carry the chocolate drink from the kitchen to the bookcase.",drink,bookcase
+"Robot, carry the chocolate drink from the kitchen to the bookcase.",drink,bookcase
+"Robot, bring me the cup from the bedroom.",cup,bedroom
+"Robot, carry the pringles to the kitchen.",pringles,kitchen
+"Robot, get the sausages from the dining room and put it on the side table.",sausages,table
+"Robot, carry the pringles from the desk to the dining room.",pringles,room
+"Robot, get the spoon from the bedroom and put it on the side table.",spoon,table
+"Robot, get me the chocolate drink from the side table.",drink,table
+"Robot, bring me the potato chips from the living room.",chips,room
+"Robot, pick up the orange juice and bring it to the cupboard.",juice,cupboard
+"Robot, get the sausages from the living room and put it on the end table.",sausages,table
+"Robot, fetch me the bowl from the dining room.",bowl,room
+"Robot, bring the potato chips from the living room.",chips,room
+"Robot, fetch the bowl and place it on the cupboard.",bowl,cupboard
+"Robot, get me the cereal from the desk.",cereal,desk
+"Robot, pick up the noodles from the corridor.",noodles,corridor
+"Robot, fetch me the chocolate drink from the living room.",drink,room
+"Robot, fetch the crackers and bring it to the living room.",crackers,room
+"Robot, get the coke from the bedroom and put it on the sink.",coke,sink
+"Robot, bring the sprite to the dining table.",sprite,table
+"Robot, pick up the potato chips.",chips,
+"Robot, bring me the knife from the living room.",knife,room
+"Robot, pick up the orange juice and place it in the dining room.",juice,room
+"Robot, bring the cup to the dining table.",cup,table
+"Robot, pick up the coke and bring it to the end table.",coke,table
+"Robot, get the pringles located in the kitchen.",pringles,kitchen
+"Robot, bring the spoon to the sink.",spoon,sink
+"Robot, fetch the sausages from the kitchen.",sausages,kitchen
+"Robot, fetch the cup from the living room.",cup,room
+"Robot, carry the cloth to the desk.",cloth,desk
+"Robot, fetch the scrubby and place it on the side table.",scrubby,table
+"Robot, pick up the sprite from the bedroom.",sprite,bedroom
+"Robot, bring the sprite from the dining room.",sprite,room
+"Robot, carry the sprite from the cupboard to the living room.",sprite,room
+"Robot, pick up the grape juice and bring it to the storage table.",juice,table
+"Robot, fetch me the cup from the living room.",cup,room
+"Robot, get the noodles from the corridor and put it on the dining table.",noodles,table
+"Robot, pick up the grape juice and bring it to the storage table.",juice,table
+"Robot, get me the orange juice from the end table.",juice,table
+"Robot, get the cloth from the corridor and bring it here.",cloth,corridor
+"Robot, carry the sponge to the dining room.",sponge,room
+"Robot, pick up the cloth.",cloth,
+"Robot, carry the coke to the counter.",coke,counter
+"Robot, fetch me the knife from the corridor.",knife,corridor
+"Robot, fetch the bowl and bring it to the corridor.",bowl,corridor
+"Robot, bring the bowl to the bedroom.",bowl,bedroom
+"Robot, bring me the pringles from the bedroom.",pringles,bedroom
+"Robot, fetch the chocolate drink and place it on the end table.",drink,table
+"Robot, fetch the knife and place it on the desk.",knife,desk
+"Robot, carry the sausages from the bookcase to the living room.",sausages,room
+"Robot, bring the pringles from the bedroom.",pringles,bedroom
+"Robot, pick up the potato chips.",chips,
+"Robot, carry the scrubby to the kitchen.",scrubby,kitchen
+"Robot, carry the sponge from the end table to the corridor.",sponge,corridor
+"Robot, bring me the coke from the living room.",coke,room
+"Robot, fetch the sausages and bring it to the living room.",sausages,room
+"Robot, get the coke from the kitchen and put it on the counter.",coke,counter
+"Robot, get the crackers located in the corridor.",crackers,corridor
+"Robot, fetch the bowl and bring it to the kitchen.",bowl,kitchen
+"Robot, bring me the scrubby from the bedroom.",scrubby,bedroom
+"Robot, carry the dish from the living room to the side table.",dish,table
+"Robot, carry the knife from the bedroom to the cupboard.",knife,cupboard
+"Robot, fetch me the noodles from the kitchen.",noodles,kitchen
+"Robot, get the crackers from the dining room and put it on the dining table.",crackers,table
+"Robot, pick up the sausages and place it in the living room.",sausages,room
+"Robot, carry the cascade pod to the bedroom.",pod,bedroom
+"Robot, bring the cascade pod to the bedroom.",pod,bedroom
+"Robot, fetch me the fork from the dining room.",fork,room
+"Robot, get the noodles located in the dining room.",noodles,room
+"Robot, fetch me the chocolate drink from the living room.",drink,room
+"Robot, fetch the knife from the bedroom.",knife,bedroom
+"Robot, fetch the cup and bring it to the dining room.",cup,room
+"Robot, bring the orange juice to the living room.",juice,room
+"Robot, carry the sausages from the desk to the dining room.",sausages,room
+"Robot, carry the crackers to the dining room.",crackers,room
+"Robot, get the cloth from the kitchen and put it on the storage table.",cloth,table
+"Robot, carry the sponge from the kitchen to the end table.",sponge,table
+"Robot, carry the sponge from the corridor to the storage table.",sponge,table
+"Robot, bring me the grape juice from the kitchen.",juice,kitchen
+"Robot, get the chocolate drink from the living room and put it on the side table.",drink,table
+"Robot, get me the sausages from the bookcase.",sausages,bookcase
+"Robot, fetch the knife from the corridor.",knife,corridor
+"Robot, carry the potato chips to the cupboard.",chips,cupboard
+"Robot, fetch the spoon and bring it to the living room.",spoon,room
+"Robot, get the cascade pod from the kitchen and bring it here.",pod,kitchen
+"Robot, carry the knife from the cupboard to the corridor.",knife,corridor
+"Robot, fetch the sprite and place it on the counter.",sprite,counter
+"Robot, bring the fork to the end table.",fork,table
+"Robot, carry the cascade pod to the living room.",pod,room
+"Robot, carry the pringles from the dining table to the living room.",pringles,room
+"Robot, bring me the sausages from the bedroom.",sausages,bedroom
+"Robot, bring the cereal to the corridor.",cereal,corridor
+"Robot, pick up the noodles and bring it to the cupboard.",noodles,cupboard
+"Robot, fetch the chocolate drink from the kitchen.",drink,kitchen
+"Robot, bring the sausages from the dining room.",sausages,room
+"Robot, carry the sausages to the corridor.",sausages,corridor
+"Robot, bring the orange juice to the living room.",juice,room
+"Robot, get me the sausages from the end table.",sausages,table
+"Robot, get the sponge from the kitchen and put it on the dining table.",sponge,table
+"Robot, fetch the coke from the kitchen.",coke,kitchen
+"Robot, get the crackers from the corridor and put it on the cupboard.",crackers,cupboard
+"Robot, carry the dish from the dining room to the storage table.",dish,table
+"Robot, fetch the spoon from the living room.",spoon,room
+"Robot, carry the sponge from the living room to the end table.",sponge,table
+"Robot, carry the cloth from the end table to the bedroom.",cloth,bedroom
+"Robot, carry the coke to the bookcase.",coke,bookcase
+"Robot, carry the coke from the living room to the cupboard.",coke,cupboard
+"Robot, carry the dish to the dining room.",dish,room
+"Robot, pick up the coke from the living room.",coke,room
+"Robot, bring the noodles to the dining room.",noodles,room
+"Robot, get the grape juice from the dining room and put it on the sink.",juice,sink
+"Robot, pick up the dish.",dish,
+"Robot, pick up the orange juice and bring it to the storage table.",juice,table
+"Robot, pick up the orange juice.",juice,
+"Robot, bring the potato chips from the kitchen.",chips,kitchen
+"Robot, get the orange juice located in the bedroom.",juice,bedroom
+"Robot, fetch the fork and place it on the cupboard.",fork,cupboard
+"Robot, bring the dish to the living room.",dish,room
+"Robot, get me the noodles from the desk.",noodles,desk
+"Robot, bring the fork to the storage table.",fork,table
+"Robot, get the sponge from the dining room and put it on the storage table.",sponge,table
+"Robot, carry the sausages from the corridor to the counter.",sausages,counter
+"Robot, carry the sausages from the corridor to the counter.",sausages,counter
+"Robot, carry the grape juice to the cupboard.",juice,cupboard
+"Robot, carry the crackers to the bedroom.",crackers,bedroom
+"Robot, bring me the crackers from the living room.",crackers,room
+"Robot, get the noodles located in the bedroom.",noodles,bedroom
+"Robot, pick up the spoon from the bedroom.",spoon,bedroom
+"Robot, carry the cereal from the counter to the corridor.",cereal,corridor
+"Robot, pick up the bowl and place it in the corridor.",bowl,corridor
+"Robot, bring me the knife from the bedroom.",knife,bedroom
+"Robot, get the potato chips from the dining room and bring it here.",chips,room
+"Robot, fetch the grape juice and place it on the desk.",juice,desk
+"Robot, pick up the potato chips and bring it to the side table.",chips,table
+"Robot, bring the cup to the sink.",cup,sink
+"Robot, bring me the cereal from the bedroom.",cereal,bedroom
+"Robot, pick up the cascade pod and bring it to the sink.",pod,sink
+"Robot, bring the bowl to the bookcase.",bowl,bookcase
+"Robot, carry the spoon to the side table.",spoon,table
+"Robot, pick up the coke and bring it to the end table.",coke,table
+"Robot, bring the orange juice from the bedroom.",juice,bedroom
+"Robot, get me the spoon from the sink.",spoon,sink
+"Robot, pick up the sponge from the living room.",sponge,room
+"Robot, carry the fork to the living room.",fork,room
+"Robot, fetch me the noodles from the bedroom.",noodles,bedroom
+"Robot, bring the grape juice from the dining room.",juice,room
+"Robot, fetch the noodles and bring it to the kitchen.",noodles,kitchen
+"Robot, bring the noodles to the bookcase.",noodles,bookcase
+"Robot, get me the potato chips from the sink.",chips,sink
+"Robot, carry the noodles to the bedroom.",noodles,bedroom
+"Robot, get the knife from the kitchen and put it on the counter.",knife,counter
+"Robot, bring me the grape juice from the kitchen.",juice,kitchen
+"Robot, bring the dish to the dining table.",dish,table
+"Robot, bring the grape juice from the bedroom.",juice,bedroom
+"Robot, pick up the bowl.",bowl,
+"Robot, pick up the sponge and place it in the living room.",sponge,room
+"Robot, fetch the cloth and bring it to the dining room.",cloth,room
+"Robot, bring the noodles to the living room.",noodles,room
+"Robot, get me the noodles from the bookcase.",noodles,bookcase
+"Robot, bring me the scrubby from the kitchen.",scrubby,kitchen
+"Robot, pick up the sprite and place it in the kitchen.",sprite,kitchen
+"Robot, get me the cup from the desk.",cup,desk
+"Robot, fetch the bowl and place it on the end table.",bowl,table
+"Robot, carry the coke to the dining room.",coke,room
+"Robot, pick up the fork.",fork,
+"Robot, fetch the orange juice and place it on the desk.",juice,desk
+"Robot, fetch me the cup from the living room.",cup,room
+"Robot, bring the cereal to the cupboard.",cereal,cupboard
+"Robot, bring the pringles to the side table.",pringles,table
+"Robot, pick up the dish and bring it to the end table.",dish,table
+"Robot, carry the orange juice to the dining table.",juice,table
+"Robot, bring the crackers to the bookcase.",crackers,bookcase
+"Robot, get the chocolate drink from the living room and bring it here.",drink,room
+"Robot, carry the cereal to the desk.",cereal,desk
+"Robot, bring the crackers to the end table.",crackers,table
+"Robot, fetch the knife and place it on the bookcase.",knife,bookcase
+"Robot, get me the chocolate drink from the storage table.",drink,table
+"Robot, pick up the noodles from the kitchen.",noodles,kitchen
+"Robot, bring the cereal to the cupboard.",cereal,cupboard
+"Robot, carry the spoon from the cupboard to the corridor.",spoon,corridor
+"Robot, pick up the potato chips.",chips,
+"Robot, bring the sprite to the living room.",sprite,room
+"Robot, get the cereal from the kitchen and bring it here.",cereal,kitchen
+"Robot, bring the potato chips to the dining table.",chips,table
+"Robot, bring the pringles to the side table.",pringles,table
+"Robot, pick up the grape juice and place it in the living room.",juice,room
+"Robot, get me the potato chips from the end table.",chips,table
+"Robot, bring the orange juice to the kitchen.",juice,kitchen
+"Robot, pick up the noodles and bring it to the end table.",noodles,table
+"Robot, bring the cup from the kitchen.",cup,kitchen
+"Robot, get the fork from the corridor and bring it here.",fork,corridor
+"Robot, bring the crackers to the end table.",crackers,table
+"Robot, bring the sausages to the living room.",sausages,room
+"Robot, fetch me the sprite from the dining room.",sprite,room
+"Robot, carry the fork from the corridor to the side table.",fork,table
+"Robot, fetch the crackers from the living room.",crackers,room
+"Robot, get the cloth from the corridor and put it on the desk.",cloth,desk
+"Robot, pick up the bowl and place it in the kitchen.",bowl,kitchen
+"Robot, fetch the grape juice from the dining room.",juice,room
+"Robot, pick up the coke and bring it to the storage table.",coke,table
+"Robot, bring the orange juice to the dining room.",juice,room
+"Robot, bring the noodles to the sink.",noodles,sink
+"Robot, carry the sponge to the living room.",sponge,room
+"Robot, carry the bowl from the bookcase to the living room.",bowl,room
+"Robot, bring the chocolate drink to the cupboard.",drink,cupboard
+"Robot, pick up the coke from the corridor.",coke,corridor
+"Robot, get the noodles from the bedroom and put it on the counter.",noodles,counter
+"Robot, carry the bowl from the kitchen to the desk.",bowl,desk
+"Robot, carry the pringles to the sink.",pringles,sink
+"Robot, get me the orange juice from the counter.",juice,counter
+"Robot, carry the sprite from the kitchen to the sink.",sprite,sink
+"Robot, carry the cloth from the bedroom to the desk.",cloth,desk
+"Robot, fetch the dish and place it on the sink.",dish,sink
+"Robot, bring the pringles to the dining table.",pringles,table
+"Robot, pick up the cloth from the dining room.",cloth,room
+"Robot, carry the cloth from the kitchen to the end table.",cloth,table
+"Robot, pick up the orange juice from the kitchen.",juice,kitchen
+"Robot, fetch the sprite and place it on the sink.",sprite,sink
+"Robot, bring the noodles from the corridor.",noodles,corridor
+"Robot, fetch me the cascade pod from the bedroom.",pod,bedroom
+"Robot, bring the sponge to the bedroom.",sponge,bedroom
+"Robot, bring the knife from the corridor.",knife,corridor
+"Robot, carry the spoon to the bookcase.",spoon,bookcase
+"Robot, carry the cascade pod from the storage table to the kitchen.",pod,kitchen
+"Robot, bring the cascade pod to the dining room.",pod,room
+"Robot, fetch the cup from the living room.",cup,room
+"Robot, carry the cup to the cupboard.",cup,cupboard
+"Robot, get me the sausages from the bookcase.",sausages,bookcase
+"Robot, carry the dish to the side table.",dish,table
+"Robot, fetch me the potato chips from the bedroom.",chips,bedroom
+"Robot, get the coke located in the dining room.",coke,room
+"Robot, fetch the bowl from the bedroom.",bowl,bedroom
+"Robot, carry the pringles from the bedroom to the end table.",pringles,table
+"Robot, pick up the fork.",fork,
+"Robot, carry the cascade pod to the bookcase.",pod,bookcase
+"Robot, pick up the cloth.",cloth,
+"Robot, get the fork from the kitchen and bring it here.",fork,kitchen
+"Robot, get the knife located in the dining room.",knife,room
+"Robot, fetch the noodles from the dining room.",noodles,room
+"Robot, bring the cereal to the living room.",cereal,room
+"Robot, carry the sprite to the bookcase.",sprite,bookcase
+"Robot, pick up the noodles from the corridor.",noodles,corridor
+"Robot, get the knife from the corridor and bring it here.",knife,corridor
+"Robot, get the dish from the corridor and bring it here.",dish,corridor
+"Robot, fetch the grape juice from the kitchen.",juice,kitchen
+"Robot, pick up the orange juice from the dining room.",juice,room
+"Robot, fetch the sprite and bring it to the kitchen.",sprite,kitchen
+"Robot, carry the bowl to the dining room.",bowl,room
+"Robot, get me the crackers from the desk.",crackers,desk
+"Robot, pick up the sponge and place it in the living room.",sponge,room
+"Robot, carry the cascade pod from the storage table to the bedroom.",pod,bedroom
+"Robot, get the sprite from the kitchen and put it on the storage table.",sprite,table
+"Robot, pick up the cereal.",cereal,
+"Robot, bring the knife to the bedroom.",knife,bedroom
+"Robot, fetch me the cup from the dining room.",cup,room
+"Robot, pick up the fork and place it in the corridor.",fork,corridor
+"Robot, bring the knife to the dining room.",knife,room
+"Robot, get the coke from the living room and bring it here.",coke,room
+"Robot, bring the cascade pod from the bedroom.",pod,bedroom
+"Robot, get the fork from the living room and put it on the cupboard.",fork,cupboard
+"Robot, get me the dish from the counter.",dish,counter
+"Robot, bring the sprite from the dining room.",sprite,room
+"Robot, pick up the cup and place it in the kitchen.",cup,kitchen
+"Robot, get the orange juice located in the kitchen.",juice,kitchen
+"Robot, bring the grape juice to the bedroom.",juice,bedroom
+"Robot, pick up the sponge.",sponge,
+"Robot, bring me the spoon from the living room.",spoon,room
+"Robot, bring me the cloth from the bedroom.",cloth,bedroom
+"Robot, bring the spoon to the dining table.",spoon,table
+"Robot, fetch the bowl and place it on the storage table.",bowl,table
+"Robot, bring the potato chips to the sink.",chips,sink
+"Robot, get the cereal from the bedroom and bring it here.",cereal,bedroom
+"Robot, carry the cloth to the bedroom.",cloth,bedroom
+"Robot, pick up the cascade pod.",pod,
+"Robot, bring me the dish from the corridor.",dish,corridor
+"Robot, carry the sausages from the dining table to the corridor.",sausages,corridor
+"Robot, get the cup from the living room and bring it here.",cup,room
+"Robot, bring me the dish from the living room.",dish,room
+"Robot, pick up the dish and place it in the living room.",dish,room
+"Robot, bring the cloth to the desk.",cloth,desk
+"Robot, fetch the knife and place it on the cupboard.",knife,cupboard
+"Robot, bring the spoon from the corridor.",spoon,corridor
+"Robot, get me the noodles from the cupboard.",noodles,cupboard
+"Robot, get the sprite from the kitchen and put it on the side table.",sprite,table
+"Robot, carry the grape juice from the kitchen to the desk.",juice,desk
+"Robot, fetch the crackers from the bedroom.",crackers,bedroom
+"Robot, carry the bowl from the counter to the corridor.",bowl,corridor
+"Robot, pick up the potato chips from the living room.",chips,room
+"Robot, bring the cloth to the living room.",cloth,room
+"Robot, bring the fork to the bedroom.",fork,bedroom
+"Robot, pick up the chocolate drink and bring it to the sink.",drink,sink
+"Robot, fetch the pringles from the living room.",pringles,room
+"Robot, pick up the potato chips and place it in the kitchen.",chips,kitchen
+"Robot, carry the grape juice from the counter to the corridor.",juice,corridor
+"Robot, get the coke located in the kitchen.",coke,kitchen
+"Robot, get the pringles from the kitchen and bring it here.",pringles,kitchen
+"Robot, pick up the potato chips and place it in the bedroom.",chips,bedroom
+"Robot, carry the orange juice to the bedroom.",juice,bedroom
+"Robot, get the cloth from the living room and bring it here.",cloth,room
+"Robot, get me the potato chips from the storage table.",chips,table
+"Robot, get me the cloth from the dining table.",cloth,table
+"Robot, bring the cup to the counter.",cup,counter
+"Robot, pick up the cloth and place it in the dining room.",cloth,room
+"Robot, bring me the sponge from the corridor.",sponge,corridor
+"Robot, bring the dish from the dining room.",dish,room
+"Robot, carry the crackers from the kitchen to the end table.",crackers,table
+"Robot, fetch the orange juice and bring it to the bedroom.",juice,bedroom
+"Robot, bring the chocolate drink from the corridor.",drink,corridor
+"Robot, bring me the chocolate drink from the dining room.",drink,room
+"Robot, pick up the cascade pod from the corridor.",pod,corridor
+"Robot, pick up the crackers from the kitchen.",crackers,kitchen
+"Robot, bring the sponge from the bedroom.",sponge,bedroom
+"Robot, bring the crackers from the dining room.",crackers,room
+"Robot, bring me the cup from the bedroom.",cup,bedroom
+"Robot, get the cereal located in the kitchen.",cereal,kitchen
+"Robot, pick up the crackers and bring it to the counter.",crackers,counter
+"Robot, pick up the dish and bring it to the dining table.",dish,table
+"Robot, pick up the pringles and place it in the dining room.",pringles,room
+"Robot, bring the cloth from the kitchen.",cloth,kitchen
+"Robot, pick up the coke and place it in the living room.",coke,room
+"Robot, get the cascade pod from the kitchen and bring it here.",pod,kitchen
+"Robot, get me the dish from the side table.",dish,table
+"Robot, fetch the scrubby and bring it to the corridor.",scrubby,corridor
+"Robot, fetch me the potato chips from the corridor.",chips,corridor
+"Robot, get the grape juice from the living room and bring it here.",juice,room
+"Robot, get the fork from the corridor and put it on the dining table.",fork,table
+"Robot, fetch the potato chips and place it on the side table.",chips,table
+"Robot, bring me the spoon from the kitchen.",spoon,kitchen
+"Robot, carry the cascade pod from the desk to the dining room.",pod,room
