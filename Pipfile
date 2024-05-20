@@ -9,6 +9,7 @@ pyttsx3 = "*"
 spacy = "*"
 pandas = "*"
 jupyter = "*"
+torch = "*"
 
 [dev-packages]
 

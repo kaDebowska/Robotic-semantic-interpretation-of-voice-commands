@@ -1,0 +1,79 @@
+
+; grammar name RobotCommands
+; grammar tier High
+
+
+
+
+$Main     = $command
+
+$command  = $manipulate_command
+
+##############################################################################
+#
+# Command Definitions
+#
+##############################################################################
+$manipulate_command = $bring_command
+$manipulate_command = $fetch_command
+$manipulate_command = $get_command
+$manipulate_command = $pick_command
+$manipulate_command = $carry_command
+
+$bring_command = Robot, bring the {kobject} from the {room}.
+$bring_command = Robot, bring me the {kobject} from the {room}.
+$bring_command = Robot, bring the {kobject} to the {placement}.
+$bring_command = Robot, bring the {kobject} to the {room}.
+
+$fetch_command = Robot, fetch the {kobject} from the {room}.
+$fetch_command = Robot, fetch me the {kobject} from the {room}.
+$fetch_command = Robot, fetch the {kobject} and place it on the {placement}.
+$fetch_command = Robot, fetch the {kobject} and bring it to the {room}.
+
+$get_command = Robot, get the {kobject} located in the {room}.
+$get_command = Robot, get the {kobject} from the {room} and bring it here.
+$get_command = Robot, get me the {kobject} from the {placement}.
+$get_command = Robot, get the {kobject} from the {room} and put it on the {placement}.
+
+$pick_command = Robot, pick up the {kobject}.
+$pick_command = Robot, pick up the {kobject} from the {room}.
+$pick_command = Robot, pick up the {kobject} and bring it to the {placement}.
+$pick_command = Robot, pick up the {kobject} and place it in the {room}.
+
+$carry_command = Robot, carry the {kobject} to the {placement}.
+$carry_command = Robot, carry the {kobject} from the {room} to the {placement}.
+$carry_command = Robot, carry the {kobject} to the {room}.
+$carry_command = Robot, carry the {kobject} from the {placement} to the {room}.
+
+##############################################################################
+#
+# Production Rules required by common.txt
+#
+##############################################################################
+; Define an object type
+$object   = {object} | bowl | cloth | tray
+
+##############################################################################
+#
+# Rules
+#
+##############################################################################
+$abspos      = (left | right) most
+$relpos      = at the (left | right) of
+$relpos      = on top of
+$relpos      = above | behind | under
+$garbage     = litter | garbage | trash | waste | debris | junk
+$luggage     = bag | baggage | valise | suitcase | trolley
+$taxi        = taxi | cab | uber
+$door        = ( front | back | main | rear ) (entrance | door)
+
+##############################################################################
+#
+# verbs
+#
+##############################################################################
+$vbtakeout   = (take out) | dump
+$vbcleanup   = (clean out) | (clean up) | (tidy up) | neaten | order
+$vbserve     = serve | arrange | deliver | distribute | give | provide
+$vbmeet      = contact | face | find | greet
+$vbbtake     = take | bring | fetch | carry | lift
